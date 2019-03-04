@@ -1,0 +1,315 @@
+.agile-sessionize-outer {
+    background-color: $yellow;
+    background-image: url('../images/schedule-bg.png');
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .agile-sessionize-inner {
+        padding:0;
+        @include media-breakpoint-down(sm) {
+            .container {
+                padding: 0;
+            }
+        }
+        .sessionize-title {
+            border-bottom: 1px solid $hr-color;
+            padding-bottom: 34px;
+        }
+    }
+    @include media-breakpoint-up(md) {
+        .agile-sessionize-inner {
+            padding: 180px 0;
+        }
+    }
+}
+
+//sessionize styling
+
+#sessionizeData {
+    .sessionize-container {
+        .sessionize-item {
+            @include media-breakpoint-up(md) {
+                //display: flex;
+                .sessionize-rooms-listing {
+                    display: flex;
+                }
+            }
+        }
+    }
+    
+    .sz-table {
+        .sz-scroll {
+            tr {
+                th {
+                    &:first-child {
+                        width: 25%;
+                    }
+                    width: 33%;
+                }
+                td {
+                    @include media-breakpoint-down(sm) {
+                        position: relative;
+                        &:nth-child(even) {
+                            &:before {
+                                content: "Green room";
+                                font-size: 18px;
+                                font-family: 'ColusRegular';
+                                padding-left:40px;
+                                margin-bottom: 20px;
+                                display: block;
+                            }
+                            &:after {
+                                content: "";
+                                background-image: url('../images/green-room.png');
+                                background-size: cover;
+                                width: 31px;
+                                height: 19px;
+                                position: absolute;
+                                left: 0;
+                                top:20px;
+                            }    
+                        }
+                        &:nth-child(odd) {
+                            &:before {
+                                content: "Yellow room";
+                                font-size: 18px;
+                                font-family: 'ColusRegular';
+                                padding-left:40px;
+                                margin-bottom: 20px;
+                                display: block;
+                            }
+                            &:after {
+                                content: "";
+                                background-image: url('../images/yellow-room.png');
+                                background-size: cover;
+                                width: 37px;
+                                height: 16px;
+                                position: absolute;
+                                left: 0;
+                                top:20px;
+                            }
+                        }
+                        &.sz-session-empty {
+                            &:before, &:after {
+                                display: none;
+                            }
+                        } 
+                    }
+                    
+                    
+                }
+                //green room styling
+                [data-roomid="4522"], [data-roomid="4523"] {
+                    @extend .colus;
+                    font-size: 24px;
+                    line-height: 24px;
+                    position: relative;
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                    }
+                }
+                [data-roomid="4522"] {
+                    padding-top: 66px;
+                    &:before {
+                        background-image: url('../images/green-room.png');
+                        background-size: 66px 42px;
+                        width: 66px;
+                        height: 42px;
+                        left: 50%;
+                        margin-left: -110px;
+                    }
+                    
+                }
+                [data-roomid="4523"] {
+                    padding-top: 68px;
+                    &:before {
+                        background-image: url('../images/yellow-room.png');
+                        background-size: 80px 48px;
+                        width: 80px;
+                        height: 48px;
+                        left: 50%;
+                        margin-left: -110px;
+                    }
+                }
+                @include media-breakpoint-down(sm) {
+                    width: 100% !important;
+                    display: block;
+                    border-bottom: 1px solid $hr-color;
+                    th, td {
+                        width: 100% !important;
+                        display: block;
+                    }
+                }
+            }
+            thead {
+                @include media-breakpoint-down(sm) {
+                    display: none;
+                } 
+            }
+            .sz-session-empty {
+                @include media-breakpoint-down(sm) {
+                    padding: 0 !important;
+                } 
+            }
+            tbody {
+                tr {
+                    &:first-child {
+                        th, td {
+                            padding-top: 55px;
+                            @include media-breakpoint-down(sm) {
+                                padding:20px 0;
+                            }
+                        }
+                    }
+                    th,td {
+                        padding-top: 20px;
+                        @include media-breakpoint-down(sm) {
+                            padding:20px 0;
+                        }
+                    }
+                    th {
+                        font-size: 20px;
+                        line-height: 24px;
+                        font-weight: normal;
+                    }
+                }
+            }
+            .sz-session {
+                .sz-session__card {
+                    display: flex;
+                    flex-direction: column;
+                    
+                    .sz-session__time {
+                        font-weight: 600;
+                        font-size: 12px;
+                        line-height: 17px;
+                        color: rgba($body-color, .5);
+                        order: 1;
+                    }
+                    .sz-session__title {
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 20px;
+                        padding-bottom: 0;
+                        margin-bottom: 0;
+                        order: 2;
+                        //color: rgba($body-color, .7);
+                        a {
+                            color: rgba($body-color, .7);
+                        }
+                    }
+                    .sz-session__speakers {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        order:3;
+                        a {
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: $body-color;
+                        }
+                    }
+                    .sz-session__tags {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .sz-gridtable {
+        .sz-day__title {
+            display: none;
+        }
+    }
+}
+
+.sz-modal-container {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: auto;
+    transform: translateX(0);
+    transition: transform 400ms ease-in-out;
+    display: flex;
+    flex: 1;
+    &.is-hidden {
+        pointer-events: none;
+        transform: translateX(-100%);
+    }
+    .sz-modal-overlay {
+        background: #fff;
+        @include cover-el;
+    }
+    .sz-modal-container-inner {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex: 1;
+        //justify-content: center;
+        padding:200px 0;
+        max-width: 1140px;
+        margin: 0 auto;
+        @include media-breakpoint-down(lg) {
+            max-width: 960px;
+        }
+        @include media-breakpoint-down(md) {
+            max-width: 720px;
+        }
+        @include media-breakpoint-down(sm) {
+            max-width: 540px;
+            padding: 0 40px;
+        }
+    }
+    .sz-modal__close {
+        position: absolute;
+        right: 0;
+        top:50px;
+        -webkit-appearance:none;
+        border: 0;
+        font-size: 20px;
+        &:hover {
+            cursor: pointer;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    .sz-modal-speaker {
+        display: flex;
+        flex: 1;
+        .sz-speaker {
+            width: 100%;
+            .sz-speaker__photo {
+                float: left;
+                border-radius: 50%;
+                display: block;
+                overflow: hidden;
+                width: 208px;
+                height: 208px;
+                margin-right: 92px;
+                > img {
+                    @include cover-media;
+                }
+            }
+            .sz-speaker__name {
+                font-size: 16px;
+                line-height: 30px;
+                color:$primary;
+            }
+        }
+        .sz-speaker__sessions {
+            list-style-type: none;
+            > li {
+                > a {
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+}

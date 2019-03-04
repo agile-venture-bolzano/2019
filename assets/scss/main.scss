@@ -1,0 +1,33 @@
+@import "commons/variables";
+
+@import "bootstrap/bootstrap";
+
+//@import "vendors/lightgallery/lightgallery";
+
+@import "commons/mixins";
+@import "commons/commons";
+@import "commons/layout";
+
+@import "modules/forms";
+@import "modules/fonts";
+@import "modules/icons";
+@import "modules/buttons";
+@import "modules/modals";
+//@import "modules/transitions";
+
+//pages
+
+@import "pages/home";
+
+//widgets
+
+@import "widgets/sessionize";
+@import "widgets/swipers";
+@import "widgets/arrow";
+
+//partials
+@import "partials/main-header";
+@import "partials/main-footer";
+
+//pages
+

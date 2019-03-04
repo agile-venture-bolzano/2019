@@ -1,0 +1,66 @@
+body {
+    background-color: $secondary;
+}
+
+.agile-kpi {
+    position: relative;
+    z-index: 2;
+    .agile-kpi-item {
+        background: #fff;
+        min-height: 344px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        .agile-kpi-img {
+            overflow: hidden;
+            transform: rotate(0);
+            transition: transform 400ms ease-in-out;
+            &.leaf-1 {
+                width: 163px;
+                height: 163px;
+            }
+            &.leaf-2 {
+                width: 197px;
+                height: 220px;
+            }
+            &.leaf-3 {
+                width: 211px;
+                height: 246px;
+            }
+            > img {
+                @include cover-media;
+            }
+        }
+        .agile-kpi-text {
+            @include centered;
+            .agile-kpi-number, .agile-kpi-label {
+                display: block;
+                text-align: center;
+                font-family: 'ColusRegular';
+            }
+            .agile-kpi-number {
+                font-size: 100px;
+                line-height: 80px;
+                -webkit-text-stroke: 1px $green;
+                text-stroke: 1px $green;
+                color: transparent;
+            }
+            .agile-kpi-label {
+                font-size: 12px;
+                margin-top: 15px;
+                color: $green;
+            }
+        }
+        @include media-breakpoint-up(lg) {
+            &:hover {
+                .agile-kpi-img {
+                    transform: rotate(20deg);
+                }
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            min-height: 293px;
+        }
+    }
+}

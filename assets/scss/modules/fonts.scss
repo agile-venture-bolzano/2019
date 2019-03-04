@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'ShackletonRegular';
+    src: url('../fonts/ShackletonRegular.eot');
+    src: url('../fonts/ShackletonRegular.eot') format('embedded-opentype'),
+         url('../fonts/ShackletonRegular.woff2') format('woff2'),
+         url('../fonts/ShackletonRegular.woff') format('woff'),
+         url('../fonts/ShackletonRegular.ttf') format('truetype'),
+         url('../fonts/ShackletonRegular.svg#ShackletonRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'ColusRegular';
+    src: url('../fonts/ColusRegular.eot');
+    src: url('../fonts/ColusRegular.eot') format('embedded-opentype'),
+         url('../fonts/ColusRegular.woff2') format('woff2'),
+         url('../fonts/ColusRegular.woff') format('woff'),
+         url('../fonts/ColusRegular.ttf') format('truetype'),
+         url('../fonts/ColusRegular.svg#ColusRegular') format('svg');
+}
+
+.colus {
+    font-family: 'ColusRegular';
+}
+
+.shackleton {
+    font-family: 'ShackletonRegular';
+}
+
+
+h1, .h1 {
+    font-family: 'ShackletonRegular';
+    font-size: 80px;
+    line-height: 80px;
+    @include media-breakpoint-down(sm) {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+
+h2 {
+    font-family: 'ShackletonRegular';
+    font-size: 50px;
+    line-height: 80px;
+    @include media-breakpoint-down(sm) {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
+
+h3 {
+    font-family: 'ColusRegular';
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.megadisplay {
+    font-family: 'ColusRegular';
+    font-size: 500px;
+    line-height: 600px;
+    -webkit-text-stroke: 1px $yellow;
+    text-stroke: 1px $yellow;
+    color: transparent;
+}

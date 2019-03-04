@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'agilebz';
+  src: url('../fonts/agilebz.eot?47857283');
+  src: url('../fonts/agilebz.eot?47857283#iefix') format('embedded-opentype'),
+       url('../fonts/agilebz.woff2?47857283') format('woff2'),
+       url('../fonts/agilebz.woff?47857283') format('woff'),
+       url('../fonts/agilebz.ttf?47857283') format('truetype'),
+       url('../fonts/agilebz.svg?47857283#agilebz') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'agilebz';
+    src: url('../font/agilebz.svg?47857283#agilebz') format('svg');
+  }
+}
+*/
+ 
+ [class^="ico-"]:before, [class*=" ico-"]:before {
+  font-family: "agilebz";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  //width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.ico-arrow:before { content: '\e800';  } /* '' */
+.ico-fb:before { content: '\e801'; font-size: 14px; } /* '' */
+.ico-linkedin:before { content: '\e802'; font-size: 12px; } /* '' */
+.ico-pin:before { content: '\e803';  } /* '' */
+.ico-twitter:before { content: '\e804'; font-size: 12px; } /* '' */

@@ -1,0 +1,58 @@
+$arrow-big-width: 66px;
+$arrow-big-height: 28px;
+$arrow-small-width: 15px;
+$arrow-small-height: 2px;
+$point-big-width: 27px;
+$point-big-height: 23px;
+$point-small-width: 9px;
+$point-small-height: 8px;
+
+
+.arrow-container {
+    position: absolute;
+    right: 10px;
+    top:50%;
+    width: $arrow-big-width;
+    height: $arrow-big-height;
+    transform: translate(0,-50%);
+    display: block;
+    .line-element {
+        width: 53px;
+        height: 5px;
+        background:$yellow;
+        position: absolute;
+        left: 0;
+        top:50%;
+        transform: translate(0,-50%);
+    }
+    .point-element {
+        position: absolute;
+        right:0;
+        top:50%;
+        transition: right 400ms ease-in-out;
+        transform: translate(0,-50%);
+        > img {
+            fill:$yellow;
+            width: $point-big-width;
+            height: $point-big-height;
+        }
+        
+    }
+    &.small {
+        width: 19px;
+        height: 8px;
+        margin-top: -1px;
+        .line-element {
+            background:$primary;
+            width: $arrow-small-width;
+            height: $arrow-small-height;
+        }
+        .point-element {
+            > img {
+                width: $point-small-width;
+                height: $point-small-height;
+            }
+
+        }
+    }
+}

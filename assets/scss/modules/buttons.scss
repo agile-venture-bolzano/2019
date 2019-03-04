@@ -1,0 +1,18 @@
+.btn {
+    &.btn-link {
+        padding: 0;
+        margin: 0;
+        >i {
+            color: $body-color;
+        }
+    }
+    &.btn-round {
+        @extend .rounded-items;
+        &:hover {
+            background: $body-color;
+            > i {
+                color: #fff;
+            }
+        }
+    }
+}

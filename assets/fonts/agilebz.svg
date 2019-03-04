@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="agilebz" horiz-adv-x="1000" >
+<font-face font-family="agilebz" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ico-arrow" unicode="&#xe800;" d="M2288 350l-838 475c50-125 75-262 75-400h-1525v-162h1525c-12-138-37-276-75-401l838 488z" horiz-adv-x="2375" />
+
+<glyph glyph-name="ico-fb" unicode="&#xe801;" d="M133-150v440h-133v187h133v146c0 154 87 227 207 227 60 0 113-7 127-7v-160l-87 0c-67 0-80-33-80-86v-120h167l-34-187h-133l0-440m-167 0v440h-133v187h133v146c0 154 87 227 207 227 60 0 113-7 127-7v-160l-87 0c-67 0-80-33-80-86v-120h167l-34-187h-133l0-440" horiz-adv-x="467" />
+
+<glyph glyph-name="ico-linkedin" unicode="&#xe802;" d="M1000-150h-217v350c0 83 0 192-108 192-108 0-125-92-125-184v-358h-217v725h209v-100h0c25 58 100 117 200 117 216 0 258-150 258-342v-400z m-867 742c-75 0-133 58-133 125 0 75 58 133 133 133 75 0 134-58 134-133-9-67-67-125-134-125l0 0z m125-742h-225v667h225v-667z" horiz-adv-x="1000" />
+
+<glyph glyph-name="ico-pin" unicode="&#xe803;" d="M375-131c-250 262-375 462-375 600 0 212 169 381 375 381s375-169 375-381c0-138-125-338-375-600z m0 487c75 0 144 63 144 144s-69 144-144 144-144-63-144-144 69-144 144-144z" horiz-adv-x="750" />
+
+<glyph glyph-name="ico-twitter" unicode="&#xe804;" d="M1200 730c-40-20-90-30-140-40 50 30 90 80 110 140-50-30-100-50-160-60-40 50-110 80-180 80-140 0-250-110-250-250 0-20 0-40 10-60-200 10-390 110-510 260-20-30-30-80-30-120 0-90 40-160 110-210-40 0-80 10-110 30 0 0 0 0 0 0 0-120 80-220 200-250-20-10-50-10-70-10-20 0-30 0-50 0 30-100 120-170 230-180-80-60-190-100-300-100-20 0-40 0-60 0 110-70 240-110 380-110 450 0 700 380 700 720 0 10 0 20 0 30 50 40 90 80 120 130" horiz-adv-x="1200" />
+</font>
+</defs>
+</svg>

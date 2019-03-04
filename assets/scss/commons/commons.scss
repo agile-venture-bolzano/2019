@@ -1,0 +1,44 @@
+.rounded-items {
+    @include size(36px);
+    //display: block;
+    border-radius: 50%;
+    border:1px solid $hr-color;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    span, i {
+        //@include centered;
+    }
+}
+
+.hero-bodymovin-content {
+    width: 100%;
+    margin: 0 auto;
+    img {
+        @include cover-media;
+    }
+    @include media-breakpoint-down(sm) {
+        //width: 100%;
+    }
+}
+
+.container {
+    @include media-breakpoint-down(sm) {
+        padding: 0 40px;
+    }
+}
+
+.main-content {
+    overflow: hidden;
+    position: relative;
+}
+
+body {
+	cursor: url('../images/cursor.svg'), default;
+}
+
+.agile-bigcta-inner, .metadata-maps, .btn-link, .nav-link, .mobile-swiper-nav {
+    cursor: url('../images/cursor-pointer.svg'), default;
+}

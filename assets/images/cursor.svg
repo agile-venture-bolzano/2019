@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="27px" viewBox="0 0 23 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.141261475 25.8170596 0.141261475 25.8170596 23 0 23"></polygon>
+    </defs>
+    <g id="F2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3-Copy" transform="translate(6.008330, 10.459292) rotate(-30.000000) translate(-6.008330, -10.459292) translate(-6.991670, -1.040708)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M12.9085206,0.141261475 L-1.84397163e-05,23.0000566 C8.35391064,19.99045 17.4631305,19.99045 25.8170596,23.0000566 L12.9085206,0.141261475 Z" id="Fill-1" fill="#1C1C1C" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
