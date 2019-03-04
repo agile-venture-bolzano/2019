@@ -33,17 +33,7 @@ gulp.task('sass', function() {
 
 gulp.task('concat', function() {
     return gulp.src([
-            path + "/assets/js/vendors/jquery-3.2.1.min.js",
-            path + "/assets/js/vendors/popper.min.js",
-            path + "/assets/js/vendors/jquery.localize.min.js",
-            path + "/assets/js/vendors/bootstrap.min.js",
-            path + "/assets/js/vendors/jquery.countdown.min.js",
-            path + "/assets/js/vendors/ScrollMagic.min.js",
-            path + "/assets/js/vendors/lightgallery.min.js",
-            path + "/assets/js/vendors/lg-video.js",
-            path + "/assets/js/vendors/video.js",
-            path + "/assets/js/vendors/moment.min.js",
-            path + "/assets/js/vendors/moment-timezone-with-data.min.js",
+            //path + "/assets/js/vendors/jquery-3.2.1.min.js"
         ])
         //path + "/assets/js/vendors/*.js")
         .pipe(concat("vendors.js"))
