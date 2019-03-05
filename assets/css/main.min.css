@@ -9180,7 +9180,8 @@ h3 {
 }
 
 .main-header .main-header-innner .agile-brand .agile-brand-link {
-  display: block;
+  display: inline-block;
+  margin-right: 1.5rem;
 }
 
 @media (max-width: 767px) {

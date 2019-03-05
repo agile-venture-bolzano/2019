@@ -62,8 +62,8 @@
                 @include media-breakpoint-down(sm) {
                     padding: 20px 10px;
                 }
-                
-            } 
+
+            }
         }
     }
     @include media-breakpoint-down(sm) {
@@ -91,7 +91,8 @@
         }
         .agile-brand {
             .agile-brand-link {
-                display: block;
+                display: inline-block;
+                margin-right: 1.5rem;
             }
             @include media-breakpoint-down(sm) {
                 display: none;
