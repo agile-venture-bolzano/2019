@@ -8414,7 +8414,7 @@ h3 {
 
 @media (min-width: 992px) {
   .agile-bigcta .agile-bigcta-inner:hover .arrow-container .point-element {
-    right: -8px;
+    right: -12px;
   }
 }
 
@@ -8833,6 +8833,27 @@ h3 {
 
 .agile-swiper-outer .main-swiper .swiper-slide .cta .btn-link {
   font-family: 'ColusRegular';
+  pointer-events: all;
+  position: relative;
+}
+
+.agile-swiper-outer .main-swiper .swiper-slide .cta .btn-link:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  height: 3px;
+  background-color: #FCD35F;
+  transition: right 400ms ease-in-out;
+}
+
+.agile-swiper-outer .main-swiper .swiper-slide .cta .btn-link:hover {
+  text-decoration: none;
+}
+
+.agile-swiper-outer .main-swiper .swiper-slide .cta .btn-link:hover:after {
+  right: 0;
 }
 
 .agile-swiper-outer .main-swiper .swiper-slide h2, .agile-swiper-outer .main-swiper .swiper-slide .agile-bigcta .agile-bigcta-inner .container .agile-bigcta-content .agile-bigcta-label, .agile-bigcta .agile-bigcta-inner .container .agile-bigcta-content .agile-swiper-outer .main-swiper .swiper-slide .agile-bigcta-label {
@@ -9034,7 +9055,7 @@ h3 {
 }
 
 .arrow-container .line-element {
-  width: 53px;
+  width: 58px;
   height: 5px;
   background: #FCD35F;
   position: absolute;
@@ -9139,6 +9160,10 @@ h3 {
 
 .navbar-nav > li.schedule-item .nav-link {
   padding: 20px 30px 20px 16px;
+}
+
+.navbar-nav > li.schedule-item .nav-link:last-child {
+  padding: 20px 16px;
 }
 
 @media (max-width: 767px) {

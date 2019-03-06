@@ -41,6 +41,24 @@
             }
             .cta .btn-link {
                 font-family: 'ColusRegular';
+                pointer-events: all;
+                position: relative;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    right: 100%;
+                    bottom: 0;
+                    height: 3px;
+                    background-color: $yellow;
+                    transition: right 400ms ease-in-out;
+                }
+                &:hover {
+                    text-decoration: none;
+                    &:after {
+                        right: 0;
+                    }
+                }
             }
             h2 {
                 margin-bottom: 40px;
