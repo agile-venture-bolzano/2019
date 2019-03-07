@@ -9310,3 +9310,15 @@ h3 {
 .hidden {
   display: none;
 }
+
+.main-footer-below h2, .main-footer-below .agile-bigcta .agile-bigcta-inner .container .agile-bigcta-content .agile-bigcta-label, .agile-bigcta .agile-bigcta-inner .container .agile-bigcta-content .main-footer-below .agile-bigcta-label {
+  color: #444;
+  margin-bottom: 1.6rem;
+}
+
+.main-footer-below p {
+  color: #444;
+  text-align: justify;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
