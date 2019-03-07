@@ -3,10 +3,13 @@ if: branch = master
 sudo: false
 git:
   depth: 1
+addons:
+  ssh_known_hosts:
+  - 54.154.31.160
 before_script:
 - echo -e "Host 54.154.31.160\n\tHostname 54.154.31.160\n\tUser miniiad\n\tIdentityFile ~/.ssh/miniiad.pem\n" > ~/.ssh/config
 - openssl aes-256-cbc -K $encrypted_46dbf476c836_key -iv $encrypted_46dbf476c836_iv
   -in miniiad.pem.enc -out ~/.ssh/miniiad.pem -d
 script:
 - eval "$(ssh-agent -s)"
-- git push ssh://miniiad@54.154.31.160/home/miniiad/venture2019bolzano.git master
+- git push ssh://miniiad@54.154.31.160/home/miniiad/venture2019bolzano.git master --force
