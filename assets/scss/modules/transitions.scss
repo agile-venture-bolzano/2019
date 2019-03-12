@@ -1,0 +1,108 @@
+.agile-kpi-item {
+	display: block;
+	position: relative;
+	/*width: 300px;
+	height: 415px;*/
+	//margin: 1.5em 2.5em;
+	color: #fff;
+	flex: none;
+	perspective: 500px;
+}
+
+.agile-kpi-item * {
+	pointer-events: none;
+}
+
+.tilter:hover,
+.tilter:focus {
+	color: #fff;
+	outline: none;
+}
+
+/*
+.agile__figure,
+.tilter__deco,
+.tilter__caption {
+	will-change: transform;
+}*/
+
+.agile__figure {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    min-height: 344px;
+    align-items: center;
+}
+
+.agile__image {
+    @include cover-media;
+}
+
+.agile__image-container {
+    &.agile--1 {
+        @include size(163px);
+    }
+    &.agile--2 {
+        width: 176px;
+        height: 196px;
+    }
+    &.agile--3 {
+        width: 176px;
+        height: 196px;
+    }
+}
+
+.agile__figure > * {
+	transform: translateZ(0px); /* Force correct stacking order */
+}
+
+.smooth .agile__figure,
+.smooth .tilter__deco--overlay,
+.smooth .tilter__deco--lines,
+.smooth .tilter__deco--shine div,
+.smooth .tilter__caption {
+	transition: transform 0.2s ease-out;
+}
+
+.agile__figure {
+	position: relative;
+    background: #fff;
+}
+
+.agile__figure::before {
+	//content: '';
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	top: 5%;
+	left: 5%;
+	box-shadow: 0 30px 20px rgba(35,32,39,0.5);
+}
+
+.agile-kpi__caption {
+    position: absolute;
+    padding: 3em;
+    .agile-kpi-number, .agile-kpi-label {
+        display: block;
+        text-align: center;
+        font-family: 'ColusRegular';
+    }
+    .agile-kpi-number {
+        font-size: 100px;
+        line-height: 80px;
+        -webkit-text-stroke: 1px $green;
+        text-stroke: 1px $green;
+        color: transparent;
+    }
+    .agile-kpi-label {
+        font-size: 12px;
+        margin-top: 15px;
+        color: $green;
+    }
+}
+
+/* Individual styles */
+
+

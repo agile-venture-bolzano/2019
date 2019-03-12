@@ -13,7 +13,7 @@
 @import "modules/icons";
 @import "modules/buttons";
 @import "modules/modals";
-//@import "modules/transitions";
+@import "modules/transitions";
 
 //pages
 
@@ -24,6 +24,7 @@
 @import "widgets/sessionize";
 @import "widgets/swipers";
 @import "widgets/arrow";
+@import "widgets/modals";
 
 //partials
 @import "partials/main-header";
@@ -31,19 +32,6 @@
 
 //pages
 
-.hidden {
-  display: none;
-}
 
-.main-footer-below h2 {
-  color: #444;
-      margin-bottom: 1.6rem;
-}
 
-.main-footer-below p {
-  color: #444;
-  text-align: justify;
-  line-height: 2rem;
-  font-size: 1.1rem;
-}
 

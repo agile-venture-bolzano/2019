@@ -1,24 +1,4 @@
 $(function() {
-    /*$.getJSON('https://sessionize.com/api/v2/kdrcj1sr/view/gridtable',function(data){
-        console.log('success');
-        console.log(data);
-        var sessionizeHtml = '<div class="sessionize-container">';
-        $.each(data,function(i,item){
-            sessionizeHtml += '<div class="sessionize-item date"><strong>'+item.date+'</strong>';
-            $.each(item.rooms,function(i,item){
-                sessionizeHtml += '<div class="sessionize-rooms">'+item.name+'</div>';
-                $.each(item.sessions,function(i,item){
-                    sessionizeHtml += '<div class="sessionize-events"><div class="sessionize-events-hours">'+item.startsAt+'</div>';
-                    sessionizeHtml += '</div>';
-                });
-            });
-            sessionizeHtml += '</div>';
-        });
-        sessionizeHtml += '</div>';
-        $('#sessionizeData').html(sessionizeHtml);
-    }).error(function(){
-        console.log('error');
-    });*/
     
     var animations = [];
     var bgAnimations = [];
@@ -50,6 +30,23 @@ $(function() {
         };  
 
         bgAnimations[index] = bodymovin.loadAnimation(params);
+    });
+    
+    $(".main-content").each(function(index) {
+        var section = $(this)
+
+        // Parallasse testi e immagini di ogni sezione
+        new ScrollMagic.Scene({
+            triggerElement: this,
+            triggerHook:0.3,
+            duration: "150%"
+        })
+        .on("progress", function (e) {
+            var val = e.progress.toFixed(3);
+            section.find(".text-parallax").css("transform", "translate3d(0,"+val*(200)+"px, 0)");
+            section.find(".js-parallax").css("transform", "translate3d(0,-"+val*(75)+"px, 0)");
+        })
+        .addTo(controller);
     });
     
     //kpi slider
@@ -84,7 +81,6 @@ $(function() {
             slideChange: function(){
                 var thisSlide = sliderSwiperKpi.activeIndex;
                 $( ".fraction-number" ).text(thisSlide + 1);
-                console.log(thisSlide);
                 $(".agile-swiper-outer").attr('class','agile-swiper-outer background-change'+thisSlide);
                 
             },
@@ -100,13 +96,19 @@ $(function() {
     for(var i = 1; i < 10; i++) {
         var sceneNumber = 'scene'+i;
         var scene = document.getElementById(sceneNumber);
-        
-        console.log(sceneNumber);
         var parallaxInstance = new Parallax(scene, {
           relativeInput: true
         });
     }
-
     
+    $('body').on('click', '.js-show-more', function () {
+        var searchEl = $(this).data('target');
+        $(searchEl + ' .sessionize-table-row.content:hidden').slice(0, 2).fadeIn();
+        if ($(searchEl + ' .sessionize-table-row.content').length == $(searchEl + ' .sessionize-table-row.content:visible').length) {
+            console.log('ciao');
+            $('.js-show-more').hide();
+        }
+        return false;
+    });
     
 })

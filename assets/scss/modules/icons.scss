@@ -54,9 +54,10 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
-.ico-arrow:before { content: '\e800';  } /* '' */
-.ico-fb:before { content: '\e801'; font-size: 14px; } /* '' */
-.ico-linkedin:before { content: '\e802'; font-size: 12px; } /* '' */
-.ico-pin:before { content: '\e803';  } /* '' */
-.ico-twitter:before { content: '\e804'; font-size: 12px; } /* '' */
+
+.ico-arrow:before { content: '\e800'; } /* '' */
+.ico-plus:before { content: '\e801'; } /* '' */
+.ico-fb:before { content: '\e802'; font-size: 14px;} /* '' */
+.ico-linkedin:before { content: '\e803';font-size: 12px; } /* '' */
+.ico-pin:before { content: '\e804'; } /* '' */
+.ico-twitter:before { content: '\e805';font-size: 12px; } /* '' */

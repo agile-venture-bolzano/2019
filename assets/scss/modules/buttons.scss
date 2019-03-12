@@ -15,4 +15,21 @@
             }
         }
     }
+    &.btn-link {
+        padding: 0;
+        background: none;
+        appearance:none;
+        -webkit-appearance:none;
+        &.js-show-more {
+            display: block;
+            width:100%;
+            font-family: 'ColusRegular';
+            border-top:1px solid $hr-color;
+            padding-top:20px;
+            > i {
+                color: $primary !important;
+                padding-right: 20px;
+            }
+        }
+    }
 }

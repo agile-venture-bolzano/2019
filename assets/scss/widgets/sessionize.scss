@@ -12,7 +12,7 @@
             }
         }
         .sessionize-title {
-            border-bottom: 1px solid $hr-color;
+            //border-bottom: 1px solid $hr-color;
             padding-bottom: 34px;
         }
     }
@@ -308,6 +308,146 @@
             > li {
                 > a {
                     pointer-events: none;
+                }
+            }
+        }
+    }
+}
+
+
+//table custom json styling
+
+.sessionize-table {
+    .sessionize-table-body {
+        .sessionize-table-row {
+            @include media-breakpoint-up(md) {
+                display: flex;
+                align-items: center;
+                margin-top: 38px;
+            }
+            @include media-breakpoint-down(sm) {
+                border-width: 1px 0 0 0;
+                border-color: $hr-color;
+                border-style: solid;
+                padding: 40px 20px;
+                .sessionize-table-cell {
+                    &:first-child {
+                        padding-bottom: 32px;
+                    }
+                    &:last-child {
+                        .sessionize-table-event {
+                            padding-bottom: 0;
+                        }
+                    }
+                    .sessionize-table-event {
+                        padding-bottom: 40px;
+                    }
+                }
+                &.content {
+                    &:nth-child(n+4) {
+                        display: none;
+                    } 
+                }
+            }
+            &.heading {
+                .sessionize-table-cell {
+                    .sessionize-rooms {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        img {
+                            flex: none;
+                        }
+                        .sessionize-room-description {
+                            font-size: 24px;
+                            line-height: 24px;
+                            margin-top: 20px;
+                        }
+                        &.green-room {
+                            img {
+                                height: 30px;
+                            }
+                        }
+                        &.yellow-room {
+                            img {
+                                height: 30px;
+                            }
+                        }
+                    }
+                }
+                @include media-breakpoint-down(sm) {
+                    display: none;
+                }
+            }
+            .sessionize-table-cell {
+                .sessionize-table-event {
+                    display: flex;
+                    flex-direction: column;
+                    .sessionize-event-hour {
+                        font-weight: 500;
+                        font-size: 12px;
+                        color: rgba($body-color, .5);
+                        letter-spacing: 0.9px;
+                    }
+                    .sessionize-event-speaker {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: $body-color;
+                    }
+                    .sessionize-event-link {
+                        color: rgba($body-color, .7);
+                        font-size: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        @include media-breakpoint-up(md) {
+                            .sessionize-event-title {
+                                span {
+                                    position: relative;
+                                    &:after {
+                                        content: "";
+                                        position: absolute;
+                                        left: 0;
+                                        right: 100%;
+                                        bottom: -2px;;
+                                        background: $primary;
+                                        height: 4px;
+                                        transition: right 400ms ease-in-out;
+                                    }
+                                }
+                                
+                            }
+                            &:hover {
+                                text-decoration: none;
+                                .sessionize-event-title {
+                                    span {
+                                       &:after {
+                                            right: 0;
+                                        } 
+                                    } 
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+                .sessionize-main-hour {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: $body-color;
+                }
+                
+                @include media-breakpoint-up(md) {
+                    width: 37.5%;
+                    &:first-child {
+                        width: 25%;
+                    }
+                }
+            }
+            &:nth-child(2) {
+                @include media-breakpoint-up(md) {
+                    margin-top: 55px;
                 }
             }
         }
