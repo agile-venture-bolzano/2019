@@ -9497,10 +9497,21 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0 auto;
 }
 
-.hero-bodymovin-content img {
-  width: 100%;
-  height: 100%;
+.hero-bodymovin-content .bg-animation img, .hero-bodymovin-content .bg-animation svg {
   object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .hero-bodymovin-content .bg-animation {
+    min-height: 300px;
+    overflow: hidden;
+  }
+  .hero-bodymovin-content .bg-animation svg {
+    position: absolute;
+    left: 0;
+    top: -90px;
+    transform: scale(1.3) translate3d(0, 0, 0) !important;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -10622,6 +10633,8 @@ h3 {
 .agile-swiper-outer {
   background: #1C8C51;
   transition: background 400ms ease-in-out;
+  position: relative;
+  z-index: 1;
 }
 
 .agile-swiper-outer.background-change1 {
@@ -11147,6 +11160,22 @@ h3 {
   margin-right: 1.5rem;
 }
 
+.main-header .main-header-innner .agile-brand .agile-brand-link.agile-bz {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .main-header .main-header-innner .agile-brand .agile-brand-link.agile-bz:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    right: -15px;
+    bottom: -6px;
+    background-color: rgba(28, 28, 28, 0.2);
+    height: 38px;
+  }
+}
+
 @media (max-width: 767.98px) {
   .main-header .main-header-innner .agile-brand {
     display: flex;
@@ -11154,15 +11183,22 @@ h3 {
   }
   .main-header .main-header-innner .agile-brand .agile-brand-link {
     height: 30px;
-    padding-right: 24px;
+    padding-right: 15px;
+    margin-right: 0.6rem;
   }
   .main-header .main-header-innner .agile-brand .agile-brand-link.agile-bz {
-    width: 45px;
+    width: 32px;
     overflow: hidden;
   }
+  .main-header .main-header-innner .agile-brand .agile-brand-link.agile-bz img {
+    transform: scale(0.7) translate3d(-30px, 3px, 0);
+  }
   .main-header .main-header-innner .agile-brand .agile-brand-link.iam {
-    width: 30px;
+    width: 28px;
     overflow: hidden;
+  }
+  .main-header .main-header-innner .agile-brand .agile-brand-link.iam img {
+    transform: scale(0.7) translate3d(-10px, 0, 0);
   }
 }
 

@@ -19,6 +19,8 @@
 .agile-swiper-outer {
     background:$green;
     transition: background 400ms ease-in-out;
+    position: relative;
+    z-index: 1;
     &.background-change1 {
         background:$purple;
     }

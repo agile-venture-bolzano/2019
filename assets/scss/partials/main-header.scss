@@ -101,20 +101,41 @@
             .agile-brand-link {
                 display: inline-block;
                 margin-right: 1.5rem;
+                &.agile-bz {
+                    position: relative;
+                    @include media-breakpoint-up(md) {
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            width: 1px;
+                            right: -15px;
+                            bottom: -6px;
+                            background-color: $hr-color; 
+                            height: 38px;
+                        }
+                    }
+                }
             }
             @include media-breakpoint-down(sm) {
                 display: flex;
                 flex: 1;
                 .agile-brand-link {
                     height: 30px;
-                    padding-right:24px;
+                    padding-right:15px;
+                    margin-right: 0.6rem;
                     &.agile-bz {
-                        width: 45px;
+                        width: 32px;
                         overflow: hidden;
+                        img {
+                            transform: scale(0.7) translate3d(-30px,3px,0);
+                        }
                     }
                     &.iam {
-                        width: 30px;
+                        width: 28px;
                         overflow: hidden;
+                        img {
+                            transform: scale(0.7) translate3d(-10px,0,0);
+                        }
                     }
                 }
             }
