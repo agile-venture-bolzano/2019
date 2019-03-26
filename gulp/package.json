@@ -1,13 +1,14 @@
 {
-  "name": "initial",
+  "name": "agile-venture-bolzano-2019",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "Agile Venture Bolzano 2019",
   "main": "index.js",
   "scripts": {
     "gulp": "gulp"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "AgileVentureBolzano",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.8",
     "gulp": "^3.9.1",
@@ -19,5 +20,13 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agile-venture-bolzano/2019.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agile-venture-bolzano/2019/issues"
+  },
+  "homepage": "https://github.com/agile-venture-bolzano/2019#readme"
 }
