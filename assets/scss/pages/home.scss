@@ -29,7 +29,7 @@
                 color: $body-color;
                 justify-content: center;
                 background:transparent;
-                
+
                 &:hover {
                     text-decoration: none;
                     .metadata-map-icon {
@@ -135,11 +135,11 @@
                         letter-spacing: -0.1px;
                         display: block;
                         color: $body-color;
-                        
+
                     }
                 }
             }
-            
+
         }
         @include media-breakpoint-down(sm) {
             .agile-bigcta-inner {
@@ -173,16 +173,16 @@
                     text-transform: none;
                     position: relative;
                     @include media-breakpoint-up(lg){
-                        &:before {
-                            content: "";
-                            position: absolute;
-                            left: 0;
-                            right:100%;
-                            bottom: 0;
-                            background:$primary;
-                            height: 4px;
-                            transition: right 400ms ease-in-out;
-                        }
+                        // &:before {
+                        //     content: "";
+                        //     position: absolute;
+                        //     left: 0;
+                        //     right:100%;
+                        //     bottom: 0;
+                        //     background:$primary;
+                        //     height: 4px;
+                        //     transition: right 400ms ease-in-out;
+                        // }
                     }
                     @include media-breakpoint-down(md) {
                         padding-right: 40px;

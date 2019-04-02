@@ -10095,19 +10095,6 @@ h3 {
   position: relative;
 }
 
-@media (min-width: 992px) {
-  .agile-bigcta .agile-bigcta-inner .container .agile-bigcta-content .agile-bigcta-label:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 100%;
-    bottom: 0;
-    background: #F34851;
-    height: 4px;
-    transition: right 400ms ease-in-out;
-  }
-}
-
 @media (max-width: 991.98px) {
   .agile-bigcta .agile-bigcta-inner .container .agile-bigcta-content .agile-bigcta-label {
     padding-right: 40px;
