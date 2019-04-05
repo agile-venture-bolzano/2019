@@ -11229,63 +11229,68 @@ h3 {
   color: #F34851;
 }
 
-.main-footer .main-footer-above .main-partners-listing {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
+.main-footer .main-footer-above .partners-inner {
+  flex-wrap: nowrap;
+  padding-bottom: 60px;
+  margin-bottom: 80px;
+  border-bottom: 1px solid rgba(28, 28, 28, 0.2);
 }
 
-.main-footer .main-footer-above .main-partners-listing a {
+.main-footer .main-footer-above .partners-inner .main-partners-listing {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.main-footer .main-footer-above .partners-inner .main-partners-listing a {
   display: block;
   width: 100px;
 }
 
-.main-footer .main-footer-above .main-partners-listing a > img {
+.main-footer .main-footer-above .partners-inner .main-partners-listing a > img {
   width: 100%;
   object-fit: cover;
 }
 
-.main-footer .main-footer-above .main-partners {
-  border-bottom: 1px solid rgba(28, 28, 28, 0.2);
-  padding-bottom: 60px;
-  margin-bottom: 80px;
+.main-footer .main-footer-above .partners-inner .main-partners {
+  text-align: center;
 }
 
-.main-footer .main-footer-above .other-partners.media-partners {
+.main-footer .main-footer-above .partners-inner .other-partners.media-partners {
   border-right: 1px solid rgba(28, 28, 28, 0.2);
 }
 
 @media (max-width: 767.98px) {
-  .main-footer .main-footer-above .other-partners.media-partners {
+  .main-footer .main-footer-above .partners-inner .other-partners.media-partners {
     margin-top: 20px;
   }
 }
 
 @media (min-width: 768px) {
-  .main-footer .main-footer-above .other-partners.istituzionali {
+  .main-footer .main-footer-above .partners-inner .other-partners.istituzionali {
     padding-left: 30px;
   }
 }
 
 @media (max-width: 767.98px) {
-  .main-footer .main-footer-above .other-partners {
+  .main-footer .main-footer-above .partners-inner .other-partners {
     margin-top: 60px;
   }
 }
 
-.main-footer .main-footer-above .other-partners-listing {
+.main-footer .main-footer-above .partners-inner .other-partners-listing {
   display: flex;
   margin-top: 30px;
 }
 
-.main-footer .main-footer-above .other-partners-listing a {
+.main-footer .main-footer-above .partners-inner .other-partners-listing a {
   display: block;
   width: 150px;
   padding-right: 20px;
 }
 
-.main-footer .main-footer-above .other-partners-listing a > img {
+.main-footer .main-footer-above .partners-inner .other-partners-listing a > img {
   width: 100%;
   object-fit: cover;
 }
