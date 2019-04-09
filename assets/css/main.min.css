@@ -11234,6 +11234,7 @@ h3 {
   padding-bottom: 60px;
   margin-bottom: 80px;
   border-bottom: 1px solid rgba(28, 28, 28, 0.2);
+  text-align: center;
 }
 
 .main-footer .main-footer-above .partners-inner .main-partners-listing {
@@ -11241,20 +11242,18 @@ h3 {
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
+  flex-wrap: wrap;
 }
 
 .main-footer .main-footer-above .partners-inner .main-partners-listing a {
   display: block;
-  width: 100px;
+  width: 125px;
+  margin: 10px;
 }
 
 .main-footer .main-footer-above .partners-inner .main-partners-listing a > img {
   width: 100%;
   object-fit: cover;
-}
-
-.main-footer .main-footer-above .partners-inner .main-partners {
-  text-align: center;
 }
 
 .main-footer .main-footer-above .partners-inner .other-partners.media-partners {
