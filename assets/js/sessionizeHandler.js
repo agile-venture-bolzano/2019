@@ -4,7 +4,7 @@ $(function() {
 
     //sessionize Json handling new version
     // $.getJSON('https://sessionize.com/api/v2/zo80faqt/view/all',function(data){
-    $.getJSON('assets/json/all.json',function(data){
+    $.getJSON('https://agile-venture-bolzano.github.io/2019/assets/json/all.json',function(data){
         $.each(data.speakers,function(i,item){
             var key = item.id;
             activeSpeakers[key] = item;
@@ -65,7 +65,7 @@ $(function() {
 
     //sessionize Json handling new version
     var afterActiveSpeakerPopulatedCallback = function() {
-        $.getJSON('assets/json/gridtable.json', function(data){
+        $.getJSON('https://agile-venture-bolzano.github.io/2019/assets/json/gridtable.json', function(data){
             var sessionizeHtml = '<div class="sessionize-table" id="events"><div class="sessionize-table-inner"><div class="sessionize-table-body">';
             sessionizeHtml += '<div class="sessionize-table-row heading">';
             sessionizeHtml += '<div class="sessionize-table-cell">&nbsp;</div>';
