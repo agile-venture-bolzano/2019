@@ -1,0 +1,720 @@
+{
+  "sessions": [
+    {
+      "id": "b34105bc-c29e-4b6c-b111-aa8d9cd86ac2",
+      "title": "Registration",
+      "description": null,
+      "startsAt": "2019-05-10T08:30:00",
+      "endsAt": "2019-05-10T09:30:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    },
+    {
+      "id": "3d7e663c-6bbb-40af-a82b-018bcb5af0ff",
+      "title": "Opening Keynote by Vasco Duarte",
+      "description": "To Be Defined",
+      "startsAt": "2019-05-10T09:30:00",
+      "endsAt": "2019-05-10T10:15:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": ["xyz-vasco-duarte" ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    },
+    {
+      "id": "a29f2e5e-0f9c-4e2e-8a4f-36cf863b0d59",
+      "title": "Coffee Break",
+      "description": null,
+      "startsAt": "2019-05-10T10:15:00",
+      "endsAt": "2019-05-10T10:40:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    },
+    {
+      "id": "103989",
+      "title": "Agile Pro Nobis",
+      "description": "In vent'anni o poco meno l'approccio agile allo sviluppo del software è passato da un esoterismo ridicolizzato ad una religione mainstream, con tutto il corpus di credenze e prassi tipiche di entrambe le fasi.\r\n\r\nChi vuole più codice e meno alberi da abbracciare e chi vuole più soft skill e meno sindrome di Asperger; chi vuole redimere le banche, chi vuole l’ascesi del garage startupparo; chi rimane aggrappato alle tavole del Manifesto e chi reinventa la Ruota™ per fare presa su un mercato in cui è davvero difficile differenziarsi. Ne abbiamo di ogni tipo.\r\n\r\nC'è qualcosa che non va in questo attaccamento viscerale per come le cose andrebbero fatte senza la stessa cura e la stessa quantità di discorsi dedicati invece a cosa si dovrebbe fare. Perché, come nelle religioni vere, non bisogna dimenticare che anche l’agile è nato con uno scopo molto semplice: fare tutti felici. Il problema è che “semplice” e “facile” non sono la stessa cosa!\r\n\r\nE nel mondo del software non c'è un al di là in cui rifarsi.\r\n",
+      "startsAt": "2019-05-10T10:40:00",
+      "endsAt": "2019-05-10T11:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f60639ab-a066-43d3-b187-3a125a82b363"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    },
+    {
+      "id": "116728",
+      "title": "I'm a mediocre developer",
+      "description": "There's a question that had been with me for a long time: am I a mediocre developer? \r\nThe world of software development is populated by a motley fauna, and over time I have learned to recognize the people who cross my footsteps. And it is also thanks (or through their fault) that this state of mind has matured.\r\nI decided to share what I discovered in order to put myself in a mirror, made with other people, in order to verify if someone else has lived the same vicissitudes as me, and maybe to be able to find an answer to this question thanks to them.",
+      "startsAt": "2019-05-10T10:40:00",
+      "endsAt": "2019-05-10T11:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "0e9d51fa-42cc-4ac2-a30f-a9c7f64bfcbe"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5148
+    },
+    {
+      "id": "118197",
+      "title": "Framework Compass Chart",
+      "description": "I think that right now as JavaScript developers we are in one of the most lively communities out there. We have a lot of power with React, Angular, Vue and so on. So how should we choose the right framework for our new shining project? And what does it mean to choose a framework “in a right way”?\r\n",
+      "startsAt": "2019-05-10T11:40:00",
+      "endsAt": "2019-05-10T12:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "885e4f63-be67-4ef4-b5e7-eea89d0c8b18"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5148
+    },
+    {
+      "id": "118428",
+      "title": "In The End Everything Is Work Ethic",
+      "description": "Agility is living interesting times. The multitude of buzzwords used in the field and the many topics that seems to be esoteric (agile HR, agile marketing, digital transformation, and others) are clear signs that we're in the commodification era. A common pattern starts to emerge: agile is nowadays beyond software development. But what happen if nobody talks about software?  Are there implications for the companies landscape at large? Economic and social impacts, maybe? Doesn't seems to early to move agility beyond software development when, we didn't understood the manifesto principle yet? Meanwhile many others seems to have forgotten XP. If we imagine to draw a line in the sand between principles and practices, where is the thin boundary that separate us from the simplest thing in the world: the ability to work in a proper way beyond the working methods. Because, after all, like a famous Gaping Void cartoon says:  \"In The End Everything Is Work Ethic\"",
+      "startsAt": "2019-05-10T11:40:00",
+      "endsAt": "2019-05-10T12:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "52ced012-6621-4900-84b8-620e937cae11"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    },
+    {
+      "id": "116088",
+      "title": "Growing Adaptive Organizations",
+      "description": "Agile is old. Good and old. The fathers of Agile started experimenting with its principles and practices back in the ‘80s, when the problem they faced was how to provide a software production team with a more sensible way to develop code and deliver actual value to the stakeholders.\r\n\r\nThe second wave of Agile, a couple of decades later, was about scaling the production beyond one single team (we are still in that wave).\r\n\r\nThe third wave of Agile, which just recently started and went well beyond the realm of IT alone, finally realized that true agility can only be achieved when: 1) it’s adopted, in context-specific ways, throughout the entire organization and; 2) it includes the way the organization interacts with its market and environment (call it Business Agility or any other similar term).\r\n\r\nWhat we are seeing today in the most innovative organizations, even outside of the IT industry, is that the underlying values and principles of agility are applied with an holistic approach to all organizational functions (finance, marketing, HR, operations, governance, procurement, production and so forth).\r\n\r\nWe also seeing how the organizational structure itself and the style of leadership in these organizations have evolved, to be consistent with the way agility works and delivers on its promises.\r\n\r\nI know quite well from my experience with clients (working with tech teams, design teams, program and project managers, executives, HR, finance) and from helping them to rethink and restructure the way their organization works, that there are many challenges that an organization has to face to make this transition — and many pitfalls as well.\r\n\r\nAmong the different challenges (learning new skills and practices, descaling processes, decentralizing decision making and accepting inherent uncertainty, just to name a few) one that is often overlooked is how to change the perception of the organization itself, so that it can become a 21st-century, adaptive organization. \r\n\r\nIn fact, while “traditional” organizations revolved mainly around production — and were therefore perceived through that set of lenses — adaptive organizations include continuous organizational learning and high-efficiency collaboration as part of their operational DNA and of their long-term sustainability and success.\r\n\r\nTherefore, one critical question is: how can we help people shifting their perception of “what needs to be done” considering three different but interrelated dimensions? And what are the practical implications of this?\r\n\r\nIn this session I’m going to share some of the lessons I’ve learned while helping companies to rethink themselves. I’m not going to provide recipes or instructions (I don’t believe those can be replicated in a different context). Rather, I’d like to share the challenges that we encountered and talk about how the way we faced them helped the organization to grow into an adaptive one. \r\n\r\nI’d also like to provide food for thought that might, hopefully, help executives, managers and leaders move in the direction of agility with a clearer sense of direction and with more realistic expectations.\r\n\r\n=================\r\n\r\nL’Agile è antico. Valido e antico. I fondatori dell’Agile hanno iniziato a sperimentare i suoi principi e pratiche già negli anni ’80, quando il problema che avevano era di dare a un team di produzione software un modo più ragionevole di sviluppare codice e di consegnare reale valore agli stakeholder.\r\n\r\nLa seconda ondata dell’Agile, un paio di decenni dopo, si è chiesta come scalare il modello di produzione al di là del singolo team (siamo ancora in questa fase).\r\n\r\nLa terza ondata dell’Agile, che è iniziata di recente e va ben oltre l’ambito dell’IT, si è finalmente resa conto che la vera agilità si può ottenere solo quando: 1) viene adottata, in modo specifico al contesto, nell’intera organizzazione; 2) tiene conto del modo in cui l’organizzazione interagisce con il proprio mercato ed ecosistema (possiamo chiamarla Business Agility).\r\n\r\nCiò che vediamo oggi nelle organizzazioni più innovative, anche al di fuori dell’industria dell’IT, è che i principi e i valori fondanti dell’agilità vengono applicati, in modo olistico, a tutte le funzioni aziendali (finanza, marketing, HR, operations, governance, procurement, produzione e così via).\r\n\r\nVediamo anche come la stessa struttura organizzativa e lo stile di leadership di queste organizzazioni si è evoluto, per essere coerente con il modo in cui l’agilità funziona e “porta a casa” i risultati.\r\n\r\nDalla mia esperienza con i clienti, so molto bene sono molte le sfide che un’organizzazione deve affrontare per fare questo cambiamento — e anche molti tranelli.\r\n\r\nTra le sfide varie sfide (imparare nuove abilità e pratiche, semplificare i processi, decentralizzare i processi decisionali e accettare l’incertezza, tanto per citarne alcune), una che spesso viene sottovalutata o non presa in considerazione è come cambiare il modo in cui l’organizzazione percepisce sé stessa, per poter diventare adattiva e contemporanea. \r\n\r\nInfatti, mentre le organizzazioni “tradizionali” sono incentrate sulla produzione — e vengono perciò percepite in quel modo — le organizzazioni adattive aggiungono al loro “DNA” l’apprendimento continuo a livello organizzativo e la collaborazione altamente efficiente, così da avere sostenibilità e successo al tempo stesso.\r\n\r\nIn questa sessione intento condividere alcune lezioni che ho imparato sul campo nell’aiutare organizzazioni diverse a ripensarsi. Non intendo fornire ricette o istruzioni da seguire (non credo che siano replicabili in contesti diversi). Piuttosto, vorrei condividere le sfide che abbiamo incontrato e parlare del modo in cui le abbiamo affrontate, per andare verso modelli adattativi.\r\n\r\nVorrei fornire spunti che possano, auspicabilmente, aiutare dirigenti, manager e leader ad andare nella direzione dell’agilità con un più chiaro senso di orientamento e aspettative più realistiche.",
+      "startsAt": "2019-05-10T12:35:00",
+      "endsAt": "2019-05-10T13:20:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "5276fa96-c624-48e4-8cac-8227d810419d"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    },
+    {
+      "id": "118012",
+      "title": "Backlog and Planning Poker by real example",
+      "description": "In my lightning talk, I will present the Backlog Prioritization and Planning Poker techniques currently in use in a real-world example within the Research and Development team at Würth Phoenix.\r\n\r\nWe use the Backlog Prioritization technique as an attempt to alleviate that feeling of constant change that developers have as adaptation to market demand alters their development tasks over time.\r\n\r\nThe Planning Poker technique allows us to create shorter, easier to estimate tasks, and helps identify potential feedback cycles that can produce more adaptations, re-engineering and improvements.",
+      "startsAt": "2019-05-10T12:35:00",
+      "endsAt": "2019-05-10T12:50:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "c19542ad-adbd-40ac-b497-ce924e8dd4c8"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5148
+    },
+    {
+      "id": "117777",
+      "title": "Why you need user testing (even if you are a developer)",
+      "description": "Creating great software requires user-centred product decisions from the entire team and a shared responsibility of UX. \r\nUsability testing can help you to really understand how people use the software you’re building and to receive feedback in real-time to inform the next iteration of a product. Do people use software for the same reason you built it? Do they get value from it? With the answers to these questions, you’ll be able to create better software products for people to love and use.",
+      "startsAt": "2019-05-10T12:55:00",
+      "endsAt": "2019-05-10T13:10:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "9ca32742-806f-45d4-91d1-d1d0bd5157e7"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5148
+    },
+    {
+      "id": "117049",
+      "title": "A story about resurrecting a legacy project",
+      "description": "This talk is about how to apply XP practices to tackle the difficulties one might encounter when working with a legacy project. \r\nI want to tell a brief real-world story and how some good practices helped me to gain confidence and motivation to bring an old project back to life.\r\n\r\nTopics I want to touch on are testing, refactoring, continuous integration.",
+      "startsAt": "2019-05-10T13:15:00",
+      "endsAt": "2019-05-10T13:30:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "52e6f9d7-2eba-467c-a8b1-7aae0b8effb6"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5148
+    },
+    {
+      "id": "5d74c460-4e42-47bd-92ee-5628fde71470",
+      "title": "Lunch Break",
+      "description": null,
+      "startsAt": "2019-05-10T13:30:00",
+      "endsAt": "2019-05-10T14:40:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    },
+    {
+      "id": "103560",
+      "title": "#NoElevator for DevOps",
+      "description": "DevOps is the last actual wave for create a sustainable environment that improves the capacity to rapidly adapt an organization to new market challenges.\r\nDevOps is Lean, and is strongly based on practices that were born with eXtreme Programming, reviewed in function of the digital technologies innovation and the mantra of the Continuous Delivery.\r\nBut there isn’t any way to become a DevOps company without a Cultural Change, focused on People and Interaction, and giving to the automation the right space behind that.\r\nIn this talk we will speak about the Cultural challenges behind a real DevOps transformation, highlighting how this means a new extended Agile mindset and not only the adoption of new tools, remembering that People are a non-trivial machines.\r\n",
+      "startsAt": "2019-05-10T14:40:00",
+      "endsAt": "2019-05-10T15:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "f26f7024-b089-4c29-a9e8-b1cf598193dc"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    },
+    {
+      "id": "118013",
+      "title": "Microservices integration: Kafka vs RabbitMQ",
+      "description": "RabbitMQ and Kafka are the most popular brokers, they are often used to integrate microservices. \r\nIn this talk, we will analyse the differences between them showing some real use-case. At the end of this talk, you will have an idea where and when to use RabbitMQ or Kafka.",
+      "startsAt": "2019-05-10T14:40:00",
+      "endsAt": "2019-05-10T15:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a660ad54-ecd0-4cae-8478-03c3cff88050"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5148
+    },
+    {
+      "id": "116732",
+      "title": "Retrospectives: Looking back to move forward",
+      "description": "Retrospection. \"The action of looking back on past events\". Whilst we can’t change past events, we can definitely learn from them to make the future better. \r\n \r\nThe intention of retrospectives is to focus on continuous improvement; to take the pitfalls of previous projects or sprints, and use them to enhance how our team works. Using games and activities we encourage a new perspective on issues, facilitate honest and open discussions and generate solid actions.\r\n \r\nWe have facilitated numerous retrospectives for all sorts of teams and are passionate advocates of the practice. In this hands-on workshop we will share our experiences and through practical examples and demonstrations, attendees will leave having designed their own retrospective to use with their teams. \r\n \r\nWe’ll cover: \r\n* What are the benefits of having retros\r\n* Energisers, games and activities\r\n* Building your own retrospective\r\n* Typical problems and solutions\r\n* How to generate useful actions\r\n",
+      "startsAt": "2019-05-10T15:40:00",
+      "endsAt": "2019-05-10T17:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "816ec3d0-8d6c-46d1-ab0b-de01ef9ca520",
+        "6b600de1-d250-4ce4-b92f-201f5d51b59e"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    },
+    {
+      "id": "117862",
+      "title": "From monolith to microservices: tales from the trenches of a long and ongoing journey",
+      "description": "In the past 20 years at lastminute.com hundreds of developers produced millions of lines of code. The platform has been constantly evolved to support the always increasing number of customers and the complexity of our business.\r\nFour years ago we faced a thought decision as our monolithic system was too large to deal with in an effective way: we decided to break our system using the microservices architectural style.\r\nBut managing microservices is hard, and hard is the journey to get there as\r\nthe overall complexity of the system increases and moves out from the applications directly to the infrastructure. \r\nDespite the challenges faced on both sides the result is worthwhile.\r\nIn this talk I’ll try to summarize the major difficulties, pitfalls and the most important lesson learned during the evolution of our platform. \r\n\r\n",
+      "startsAt": "2019-05-10T15:40:00",
+      "endsAt": "2019-05-10T16:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "bd068c11-f2a4-4696-ac3e-efe3f32906e4"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5148
+    },
+    {
+      "id": "114958",
+      "title": "In Code we trust",
+      "description": "I want to explain you why the code is the only source of truth. You have to put more care about your code and spend less time to build other artefacts like comments, documentation and so on.\r\nI will share you real episodes and my best practices, the lessons  learned and the issues faced",
+      "startsAt": "2019-05-10T16:40:00",
+      "endsAt": "2019-05-10T17:25:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "653a5138-c9f3-4989-8d66-55b15a86866c"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5148
+    },
+    {
+      "id": "eb1ce572-3ee9-4f7f-81da-4c664c9fe115",
+      "title": "Closing",
+      "description": null,
+      "startsAt": "2019-05-10T17:30:00",
+      "endsAt": "2019-05-10T17:45:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 5147
+    }
+  ],
+  "speakers": [
+    {
+      "id": "5276fa96-c624-48e4-8cac-8227d810419d",
+      "firstName": "Andrea",
+      "lastName": "Provaglio",
+      "bio": "Affianco aziende ed organizzazioni il cui business si basa sulla conoscenza e sull’innovazione (comprese aziende IT) a ripensare le proprie dinamiche organizzative, la loro struttura e mentalità, le loro pratiche e processi, così da permettere loro di fare business in modo più efficace nel 21mo secolo.\r\n\r\nLavoro a stretto contatto con dirigenti, proprietari, manager e team operativi, and svolgo una serie di diverse attività che possono comprendere coaching individuale e di team, consulenza su specifiche pratiche e, occasionalmente, formazione “on the job\".\r\n\r\nMi interessano particolarmente i temi della leadership distribuita e dell’auto-organizzazione in aziende basate sulla conoscenza, un tema che tocca tutta una seria di aspetti, tra cui: strutture organizzative non convenzionali, capacità di comunicazione individuale e collettiva, e “social skill”. Inoltre, da oltre 10 anni sono un praticante Agile con clienti sia in Italia che all’estero.\r\n\r\nIn oltre 20 anni di esperienza professionale, prima nel settore IT poi nell’Agile in senso più ampio, ho collaborato, in tre diversi continenti, con organizzazioni che vanno dalla FAO (Nazioni Unite) fino ad aziende o start-up piccole e dinamiche. Ho una vasta gamma di esperienza, sia nel settore privato che pubblico e con culture diverse.\r\n\r\nRisiedo in Italia ma ho anche lavorato per quattro anni negli Stati Uniti con un visto di tipo O-1 per “abilità straordinarie nelle scienze”.\r\n\r\nCome parte delle mie regolari attività, mi piace condividere quello che so partecipando come speaker alle principali conferenze internazionali del settore.\r\n\r\nMaggiori informazioni sono disponibili a:\r\n* http://andreaprovaglio.com/about\r\n* http://linkedin.com/in/provaglio\r\n* http://lanyrd.com/profile/andreaprovaglio/",
+      "tagLine": "Agile Enterprise Coach, Agile Executive Coach, Keynote Speaker, Mentor",
+      "profilePicture": "https://sessionize.com/image?f=d6d292bc28d7ca2bbebb2012426017ba,400,400,True,False,96-c624-48e4-8cac-8227d810419d.e877eff8-4252-4e9a-b45e-91224f4f0c2b.jpeg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "http://twitter.com/andreaprovaglio",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "http://linkedin.com/in/provaglio",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "http://andreaprovaglio.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        116088
+      ],
+      "fullName": "Andrea Provaglio"
+    },
+    {
+      "id": "52e6f9d7-2eba-467c-a8b1-7aae0b8effb6",
+      "firstName": "Christian",
+      "lastName": "christian ˎˊ 🍕 pizza in the veins",
+      "bio": "I am a passionate programmer, I like to build digital products that meet the customer’s needs. My objective is to continuously improve since I believe in this field you never stop learning. In my work experience since 2014 I adopted essential practices to write maintainable software and work effectively with my team, collaborate with the customer in a lean and modern way. During the past few years I expanded my knowledge with methodologies, techniques and programming languages, at work and in my spare time.\r\n\r\nMy main programming language is JavaScript & Node.js, Elixir and a bit of Ruby (on Rails). I had the opportunity to work with Java and PHP too. I am experimenting with Haskell, Scala and Elm.\r\n\r\nI try to focus more on concepts and practices than on the technology or programming languages. I say this because I think great software is created first with a solid foundation of practices to reduce stress that enable you to maintain the software like tests, code refactoring, continuous integration, clean code.\r\n\r\nIn my opinion good software development is about people, so I embrace and truly believe it’s essential to have a tight collaboration and effective communication between the team and the customer.\r\n",
+      "tagLine": "Agile Full Stack Developer at Wonderflow",
+      "profilePicture": "https://sessionize.com/image?f=5596a8f21fc51b9c3efaf226378ae93c,400,400,True,False,d7-2eba-467c-a8b1-7aae0b8effb6.c1f583f8-6f29-45fd-90e0-324edcaef348.png",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/christian_fei",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/christian-fei-6b72b5123/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://christianfei.com/",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.wonderflow.co",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        117049
+      ],
+      "fullName": "Christian christian ˎˊ 🍕 pizza in the veins"
+    },
+    {
+      "id": "9ca32742-806f-45d4-91d1-d1d0bd5157e7",
+      "firstName": "Federica",
+      "lastName": "Pecoraro",
+      "bio": "She fights for a frustration-free digital universe.\r\nSince 2013, as Founding Partner and Head of UX at Fightbean she designs for people not for users.\r\nDesign Sprints are her secret weapon to help companies creating innovative digital products.",
+      "tagLine": "Head of UX and Founding Partner @Fightbean",
+      "profilePicture": "https://sessionize.com/image?f=2f0e276c6b2b3b8efca8407816709248,400,400,True,False,ad1c2184-7292-46ff-a912-79f75704792f.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/federicapecoraro/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.fightbean.it/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        117777
+      ],
+      "fullName": "Federica Pecoraro"
+    },
+    {
+      "id": "f26f7024-b089-4c29-a9e8-b1cf598193dc",
+      "firstName": "Felice",
+      "lastName": "Pescatore",
+      "bio": "Xebir Founder & CEO I work daily with complex projects using Agile/Lean/DevOps approaches to achieve business goals. Software Engineer with a Master Degree in Software Technology and Software Management, I support companies in their transformation path in order to make them more dynamic and value-oriented, creating a strong Lean oriented culture.\r\nAgile Business Coach, Microsoft MVP and Disciplined Agile Consortium member, agilist of the first hour, I’m the leader of the AgileIoT.org and Eclipse Duttile open projects, an empirical disciplined approach to create massive IoT market solutions.\r\n",
+      "tagLine": "Business Agility Coach",
+      "profilePicture": "https://sessionize.com/image?f=ed38e87013cd782dcb5c0f70b20cbddf,400,400,True,False,78ee3fa1-5b5c-4502-bac1-3b04bcb68afa.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/felicepescatore",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/pub/felice-pescatore/22/41a/50a",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "http://www.felicepescatore.it",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "http://www.xebir.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        103560
+      ],
+      "fullName": "Felice Pescatore"
+    },
+    {
+      "id": "0e9d51fa-42cc-4ac2-a30f-a9c7f64bfcbe",
+      "firstName": "Ferdinando",
+      "lastName": "Santacroce",
+      "bio": "Ferdinando Santacroce is a developer, author, trainer, coach and speaker who loves learning new things.\r\nhttps://about.me/ferdinando.santacroce",
+      "tagLine": "Senior beginner",
+      "profilePicture": "https://sessionize.com/image?f=cfc949e070f5408842ec6378d77f647d,400,400,True,False,b74aed57-0455-445d-b7ab-207248c584d6.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/jesuswasrasta",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ferdinandosantacroce/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://jesuswasrasta.com",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.intre.it",
+          "linkType": "Company_Website"
+        },
+        {
+          "title": "Italian Agile Movement",
+          "url": "https://www.agilemovement.it",
+          "linkType": "Other"
+        }
+      ],
+      "sessions": [
+        116728
+      ],
+      "fullName": "Ferdinando Santacroce"
+    },
+    {
+      "id": "885e4f63-be67-4ef4-b5e7-eea89d0c8b18",
+      "firstName": "Francesco",
+      "lastName": "Strazzullo",
+      "bio": "I'm a Frontend Engineer @ flowing. I'm also a speaker at tech conferences and reviewer for Manning, Packt and Pragmatic Programmer. I like to relax playing with my Playstation or cooking some strange ethnic dish for me and my girlfriend",
+      "tagLine": "software engineer @ flowing  ",
+      "profilePicture": "https://sessionize.com/image?f=fcb191b58e39fc737833fefc1fa50486,400,400,True,False,fcb85d98-325b-4431-b8f2-0773aaabbe46.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/TheStrazz86",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "Blog",
+          "url": "https://medium.com/@TheStrazz86",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.flowing.it/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        118197
+      ],
+      "fullName": "Francesco Strazzullo"
+    },
+    {
+      "id": "a660ad54-ecd0-4cae-8478-03c3cff88050",
+      "firstName": "Gabriele",
+      "lastName": "Santomaggio",
+      "bio": "Senior OpenStack Developer @SUSE, working on OpenStack middleware modules.\r\nRabbitMQ contributor/supporter, technologies and open source enthusiast. \r\nCo-author of \"RabbitMQ Cookbook.\"",
+      "tagLine": "SUSE, Senior OpenStack Developer",
+      "profilePicture": "https://sessionize.com/image?f=d270311d40cc81fa2064cde83356012b,400,400,True,False,54-ecd0-4cae-8478-03c3cff88050.4abba5be-da37-4ab8-bb03-62001e9d3e54.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/GSantomaggio",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/santomaggio/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.suse.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        118013
+      ],
+      "fullName": "Gabriele Santomaggio"
+    },
+    {
+      "id": "xyz-vasco-duarte",
+      "firstName": "Vasco",
+      "lastName": "Duarte",
+      "bio": "",
+      "tagLine": "Agile Coach and Scrum Master at Oikosofy",
+      "profilePicture": "/assets/images/pics/vascoduarte.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        "3d7e663c-6bbb-40af-a82b-018bcb5af0ff"
+      ],
+      "fullName": "Vasco Duarte"
+    },
+    {
+      "id": "f60639ab-a066-43d3-b187-3a125a82b363",
+      "firstName": "Jacopo",
+      "lastName": "Romei",
+      "bio": "In 2003 I spotted new agile ways to develop software and, as a young entrepreneur I gave them a try. I introduced agile in eBay Italia, Siemens and FAO but in 2011 I realized the problem often is in organisations’ governance and in the agreements we negotiate. This led me to become a member of the board of European Organisation Design Forum (EODF).\r\n\r\nUsually I get hired by people who want to waste less time, money and enthusiasm. I help those people working together in better ways because that’s a big chunk of our lives. \r\n\r\nI wrote a few books: “Pro PHP Refactoring”, a TDD chapter in “PHP Best Practices” and “Extreme Contracts” in 2017, on contracts and negotiation in knowledge work. I also contributed to a couple of books written by Jurgen Appelo.\r\n\r\nI am among the founders of ALE Agile Lean Europe network, PHP User Group Roma and Arduino User Group Roma.\r\n\r\nI’ve got a sailing license because of the sea, a glider pilot license because of the sky and I am an LSP facilitator certified by Lucio Margulis.",
+      "tagLine": "Freelance strategy consultant",
+      "profilePicture": "https://sessionize.com/image?f=1e8ede0dfd627d34909ce73d392f1267,400,400,True,False,f4461dd9-26cb-4399-9085-89dd16a616f3.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/jacoporomei",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "http://www.linkedin.com/in/jakuza",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "http://jacoporomei.com",
+          "linkType": "Blog"
+        }
+      ],
+      "sessions": [
+        103989
+      ],
+      "fullName": "Jacopo Romei"
+    },
+    {
+      "id": "816ec3d0-8d6c-46d1-ab0b-de01ef9ca520",
+      "firstName": "Katie",
+      "lastName": "Difford",
+      "bio": "Hi! I'm Katie. \r\n\r\nI’m a software developer and am very passionate about continuous improvement. I have facilitated a number of retros at Sky and have gained invaluable experience from this. I believe that you get the best out of people when they are comfortable and are able to talk about difficult issues in a light-hearted manner. When I’m not writing code or playing Agile games, you’ll find me on the netball courts.",
+      "tagLine": "Software Developer",
+      "profilePicture": "https://sessionize.com/image?f=766dc11cbb42c902d65fba52ac33de4c,400,400,True,False,746f8d79-39e3-46b9-8cb4-3bcb71df8212.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/katie-difford-867a32107/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://katiedifford95.wixsite.com/katiewithak",
+          "linkType": "Blog"
+        }
+      ],
+      "sessions": [
+        116732
+      ],
+      "fullName": "Katie Difford"
+    },
+    {
+      "id": "653a5138-c9f3-4989-8d66-55b15a86866c",
+      "firstName": "Marco",
+      "lastName": "Fracassi",
+      "bio": "I've been a software developer since I was a child, now not only passionate about code but also of agile methodologies and web marketing. I work full time but I keep myself trained by doing small projects and sites.",
+      "tagLine": "XP developer and trainer @ XPeppers",
+      "profilePicture": "https://sessionize.com/image?f=af4fc7a85977f1e8db82db7a3b8d16dc,400,400,True,False,b3be20c7-185c-4d64-8f1b-7df68ed1c4dc.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/fracassi_marco",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/marco-fracassi/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://marcofracassi.blogspot.com/",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.xpeppers.com/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        114958
+      ],
+      "fullName": "Marco Fracassi"
+    },
+    {
+      "id": "52ced012-6621-4900-84b8-620e937cae11",
+      "firstName": "Matteo",
+      "lastName": "Carella",
+      "bio": "My work is spreading agile and lean culture, helping people with theory and practice, mentoring, facilitating and supporting them. I also coach teams, managers and executives (CTOs, CEOs) in order to help them grow strong in applying Agile methodologies to their work. ",
+      "tagLine": "Agile Coach @ Vodafone",
+      "profilePicture": "https://sessionize.com/image?f=405110d7fd200218c148deb048acb1ff,400,400,True,False,12-6621-4900-84b8-620e937cae11.ab0b1d9e-e3eb-4ef5-96eb-0cb97f28ffcc.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/MattCarella",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/matteo-carella-97104636/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Blog",
+          "url": "https://medium.com/@MattCarella/",
+          "linkType": "Blog"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://medium.com/@MattCarella/",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        118428
+      ],
+      "fullName": "Matteo Carella"
+    },
+    {
+      "id": "6b600de1-d250-4ce4-b92f-201f5d51b59e",
+      "firstName": "Mattia",
+      "lastName": "Battiston",
+      "bio": "I’m a software developer and team leader with a great passion for learning and continuous improvement. I’ve been interested in everything to do with agile and helping teams improve since the beginning of my career 10 years ago. I love conferences and meetups for sharing experiences and learning from each others.\r\n\r\nI currently work at Sky, where I use kanban, lean and agile to help teams strive to get better.",
+      "tagLine": "Software Developer & Team Leader, Sky",
+      "profilePicture": "https://sessionize.com/image?f=d31b5cf84ae960f5b1a1bc3bd14abc39,400,400,True,False,d18abbc4-a584-4acf-8ecd-fe1c946adf81.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/battistonmattia",
+          "linkType": "Twitter"
+        },
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/mattiabattiston/",
+          "linkType": "LinkedIn"
+        }
+      ],
+      "sessions": [
+        116732
+      ],
+      "fullName": "Mattia Battiston"
+    },
+    {
+      "id": "c19542ad-adbd-40ac-b497-ce924e8dd4c8",
+      "firstName": "Michele",
+      "lastName": "Santuari",
+      "bio": "I am a Telecommunication engineer fell in love with OpenFlow, the first attempt of centralized network management, provisioning and monitoring. I embraced the Software Defined Networking approach to discover a passion for programming languages.\r\nNow, I am involved in the design, engineering and implementation of our Monitoring solution called NetEye at Wuerth-Phoenix.",
+      "tagLine": "Software Architect at Wuerth-Phoenix",
+      "profilePicture": "https://sessionize.com/image?f=2bd6a460148ee34798e9a68332586eb0,400,400,True,False,ad-adbd-40ac-b497-ce924e8dd4c8.9abc0a3d-caf0-4441-af0f-0de0d6429fdb.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/michelesantuari/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "https://www.wuerth-phoenix.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        118012
+      ],
+      "fullName": "Michele Santuari"
+    },
+    {
+      "id": "bd068c11-f2a4-4696-ac3e-efe3f32906e4",
+      "firstName": "Paolo",
+      "lastName": "Banfi",
+      "bio": "I am an accomplished Software Engineer, specialized in Object Oriented Design and Analysis with extensive experience in the full life cycle of the software design process including prototyping, proof of concept, design, interface implementation, testing and maintenance.\r\n\r\nIn the past five years I've been working in lastminute.com, shaping the new platform and rescuing legacy code.",
+      "tagLine": "Software Architect - lastminute.com",
+      "profilePicture": "https://sessionize.com/image?f=8ab119a900ac2f4b2381a0e39ac073c4,400,400,True,False,03cad3d0-3af6-4482-9397-220415c0bab5.jpg",
+      "isTopSpeaker": false,
+      "links": [
+        {
+          "title": "LinkedIn",
+          "url": "https://www.linkedin.com/in/paolobanfi/",
+          "linkType": "LinkedIn"
+        },
+        {
+          "title": "Company Website",
+          "url": "http://lastminute.com",
+          "linkType": "Company_Website"
+        }
+      ],
+      "sessions": [
+        117862
+      ],
+      "fullName": "Paolo Banfi"
+    }
+  ],
+  "questions": [],
+  "categories": [],
+  "rooms": [
+    {
+      "id": 5147,
+      "name": "Main",
+      "sort": 0
+    },
+    {
+      "id": 5148,
+      "name": "Secondary",
+      "sort": 1
+    }
+  ]
+}

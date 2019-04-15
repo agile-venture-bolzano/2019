@@ -1,0 +1,789 @@
+[
+  {
+    "date": "2019-05-10T00:00:00",
+    "rooms": [
+      {
+        "id": 5147,
+        "name": "Main",
+        "sessions": [
+          {
+            "id": "b34105bc-c29e-4b6c-b111-aa8d9cd86ac2",
+            "title": "Registration",
+            "description": null,
+            "startsAt": "2019-05-10T08:30:00",
+            "endsAt": "2019-05-10T09:30:00",
+            "isServiceSession": true,
+            "isPlenumSession": true,
+            "speakers": [],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          },
+          {
+            "id": "3d7e663c-6bbb-40af-a82b-018bcb5af0ff",
+            "title": "Opening Keynote by Vasco Duarte",
+            "description": "To Be Defined",
+            "startsAt": "2019-05-10T09:30:00",
+            "endsAt": "2019-05-10T10:15:00",
+            "isServiceSession": true,
+            "isPlenumSession": true,
+            "speakers": [{
+              "id": "xyz-vasco-duarte",
+              "name": "Vasco Duarte"
+            }],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          },
+          {
+            "id": "a29f2e5e-0f9c-4e2e-8a4f-36cf863b0d59",
+            "title": "Coffee Break",
+            "description": null,
+            "startsAt": "2019-05-10T10:15:00",
+            "endsAt": "2019-05-10T10:40:00",
+            "isServiceSession": true,
+            "isPlenumSession": true,
+            "speakers": [],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          },
+          {
+            "id": "103989",
+            "title": "Agile Pro Nobis",
+            "description": "In vent'anni o poco meno l'approccio agile allo sviluppo del software è passato da un esoterismo ridicolizzato ad una religione mainstream, con tutto il corpus di credenze e prassi tipiche di entrambe le fasi.\r\n\r\nChi vuole più codice e meno alberi da abbracciare e chi vuole più soft skill e meno sindrome di Asperger; chi vuole redimere le banche, chi vuole l’ascesi del garage startupparo; chi rimane aggrappato alle tavole del Manifesto e chi reinventa la Ruota™ per fare presa su un mercato in cui è davvero difficile differenziarsi. Ne abbiamo di ogni tipo.\r\n\r\nC'è qualcosa che non va in questo attaccamento viscerale per come le cose andrebbero fatte senza la stessa cura e la stessa quantità di discorsi dedicati invece a cosa si dovrebbe fare. Perché, come nelle religioni vere, non bisogna dimenticare che anche l’agile è nato con uno scopo molto semplice: fare tutti felici. Il problema è che “semplice” e “facile” non sono la stessa cosa!\r\n\r\nE nel mondo del software non c'è un al di là in cui rifarsi.\r\n",
+            "startsAt": "2019-05-10T10:40:00",
+            "endsAt": "2019-05-10T11:25:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "f60639ab-a066-43d3-b187-3a125a82b363",
+                "name": "Jacopo Romei"
+              }
+            ],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          },
+          {
+            "id": "118428",
+            "title": "In The End Everything Is Work Ethic",
+            "description": "Agility is living interesting times. The multitude of buzzwords used in the field and the many topics that seems to be esoteric (agile HR, agile marketing, digital transformation, and others) are clear signs that we're in the commodification era. A common pattern starts to emerge: agile is nowadays beyond software development. But what happen if nobody talks about software?  Are there implications for the companies landscape at large? Economic and social impacts, maybe? Doesn't seems to early to move agility beyond software development when, we didn't understood the manifesto principle yet? Meanwhile many others seems to have forgotten XP. If we imagine to draw a line in the sand between principles and practices, where is the thin boundary that separate us from the simplest thing in the world: the ability to work in a proper way beyond the working methods. Because, after all, like a famous Gaping Void cartoon says:  \"In The End Everything Is Work Ethic\"",
+            "startsAt": "2019-05-10T11:40:00",
+            "endsAt": "2019-05-10T12:25:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "52ced012-6621-4900-84b8-620e937cae11",
+                "name": "Matteo Carella"
+              }
+            ],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          },
+          {
+            "id": "116088",
+            "title": "Growing Adaptive Organizations",
+            "description": "Agile is old. Good and old. The fathers of Agile started experimenting with its principles and practices back in the ‘80s, when the problem they faced was how to provide a software production team with a more sensible way to develop code and deliver actual value to the stakeholders.\r\n\r\nThe second wave of Agile, a couple of decades later, was about scaling the production beyond one single team (we are still in that wave).\r\n\r\nThe third wave of Agile, which just recently started and went well beyond the realm of IT alone, finally realized that true agility can only be achieved when: 1) it’s adopted, in context-specific ways, throughout the entire organization and; 2) it includes the way the organization interacts with its market and environment (call it Business Agility or any other similar term).\r\n\r\nWhat we are seeing today in the most innovative organizations, even outside of the IT industry, is that the underlying values and principles of agility are applied with an holistic approach to all organizational functions (finance, marketing, HR, operations, governance, procurement, production and so forth).\r\n\r\nWe also seeing how the organizational structure itself and the style of leadership in these organizations have evolved, to be consistent with the way agility works and delivers on its promises.\r\n\r\nI know quite well from my experience with clients (working with tech teams, design teams, program and project managers, executives, HR, finance) and from helping them to rethink and restructure the way their organization works, that there are many challenges that an organization has to face to make this transition — and many pitfalls as well.\r\n\r\nAmong the different challenges (learning new skills and practices, descaling processes, decentralizing decision making and accepting inherent uncertainty, just to name a few) one that is often overlooked is how to change the perception of the organization itself, so that it can become a 21st-century, adaptive organization. \r\n\r\nIn fact, while “traditional” organizations revolved mainly around production — and were therefore perceived through that set of lenses — adaptive organizations include continuous organizational learning and high-efficiency collaboration as part of their operational DNA and of their long-term sustainability and success.\r\n\r\nTherefore, one critical question is: how can we help people shifting their perception of “what needs to be done” considering three different but interrelated dimensions? And what are the practical implications of this?\r\n\r\nIn this session I’m going to share some of the lessons I’ve learned while helping companies to rethink themselves. I’m not going to provide recipes or instructions (I don’t believe those can be replicated in a different context). Rather, I’d like to share the challenges that we encountered and talk about how the way we faced them helped the organization to grow into an adaptive one. \r\n\r\nI’d also like to provide food for thought that might, hopefully, help executives, managers and leaders move in the direction of agility with a clearer sense of direction and with more realistic expectations.\r\n\r\n=================\r\n\r\nL’Agile è antico. Valido e antico. I fondatori dell’Agile hanno iniziato a sperimentare i suoi principi e pratiche già negli anni ’80, quando il problema che avevano era di dare a un team di produzione software un modo più ragionevole di sviluppare codice e di consegnare reale valore agli stakeholder.\r\n\r\nLa seconda ondata dell’Agile, un paio di decenni dopo, si è chiesta come scalare il modello di produzione al di là del singolo team (siamo ancora in questa fase).\r\n\r\nLa terza ondata dell’Agile, che è iniziata di recente e va ben oltre l’ambito dell’IT, si è finalmente resa conto che la vera agilità si può ottenere solo quando: 1) viene adottata, in modo specifico al contesto, nell’intera organizzazione; 2) tiene conto del modo in cui l’organizzazione interagisce con il proprio mercato ed ecosistema (possiamo chiamarla Business Agility).\r\n\r\nCiò che vediamo oggi nelle organizzazioni più innovative, anche al di fuori dell’industria dell’IT, è che i principi e i valori fondanti dell’agilità vengono applicati, in modo olistico, a tutte le funzioni aziendali (finanza, marketing, HR, operations, governance, procurement, produzione e così via).\r\n\r\nVediamo anche come la stessa struttura organizzativa e lo stile di leadership di queste organizzazioni si è evoluto, per essere coerente con il modo in cui l’agilità funziona e “porta a casa” i risultati.\r\n\r\nDalla mia esperienza con i clienti, so molto bene sono molte le sfide che un’organizzazione deve affrontare per fare questo cambiamento — e anche molti tranelli.\r\n\r\nTra le sfide varie sfide (imparare nuove abilità e pratiche, semplificare i processi, decentralizzare i processi decisionali e accettare l’incertezza, tanto per citarne alcune), una che spesso viene sottovalutata o non presa in considerazione è come cambiare il modo in cui l’organizzazione percepisce sé stessa, per poter diventare adattiva e contemporanea. \r\n\r\nInfatti, mentre le organizzazioni “tradizionali” sono incentrate sulla produzione — e vengono perciò percepite in quel modo — le organizzazioni adattive aggiungono al loro “DNA” l’apprendimento continuo a livello organizzativo e la collaborazione altamente efficiente, così da avere sostenibilità e successo al tempo stesso.\r\n\r\nIn questa sessione intento condividere alcune lezioni che ho imparato sul campo nell’aiutare organizzazioni diverse a ripensarsi. Non intendo fornire ricette o istruzioni da seguire (non credo che siano replicabili in contesti diversi). Piuttosto, vorrei condividere le sfide che abbiamo incontrato e parlare del modo in cui le abbiamo affrontate, per andare verso modelli adattativi.\r\n\r\nVorrei fornire spunti che possano, auspicabilmente, aiutare dirigenti, manager e leader ad andare nella direzione dell’agilità con un più chiaro senso di orientamento e aspettative più realistiche.",
+            "startsAt": "2019-05-10T12:35:00",
+            "endsAt": "2019-05-10T13:20:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "5276fa96-c624-48e4-8cac-8227d810419d",
+                "name": "Andrea Provaglio"
+              }
+            ],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          },
+          {
+            "id": "5d74c460-4e42-47bd-92ee-5628fde71470",
+            "title": "Lunch Break",
+            "description": null,
+            "startsAt": "2019-05-10T13:30:00",
+            "endsAt": "2019-05-10T14:40:00",
+            "isServiceSession": true,
+            "isPlenumSession": true,
+            "speakers": [],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          },
+          {
+            "id": "103560",
+            "title": "#NoElevator for DevOps",
+            "description": "DevOps is the last actual wave for create a sustainable environment that improves the capacity to rapidly adapt an organization to new market challenges.\r\nDevOps is Lean, and is strongly based on practices that were born with eXtreme Programming, reviewed in function of the digital technologies innovation and the mantra of the Continuous Delivery.\r\nBut there isn’t any way to become a DevOps company without a Cultural Change, focused on People and Interaction, and giving to the automation the right space behind that.\r\nIn this talk we will speak about the Cultural challenges behind a real DevOps transformation, highlighting how this means a new extended Agile mindset and not only the adoption of new tools, remembering that People are a non-trivial machines.\r\n",
+            "startsAt": "2019-05-10T14:40:00",
+            "endsAt": "2019-05-10T15:25:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "f26f7024-b089-4c29-a9e8-b1cf598193dc",
+                "name": "Felice Pescatore"
+              }
+            ],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          },
+          {
+            "id": "116732",
+            "title": "Retrospectives: Looking back to move forward",
+            "description": "Retrospection. \"The action of looking back on past events\". Whilst we can’t change past events, we can definitely learn from them to make the future better. \r\n \r\nThe intention of retrospectives is to focus on continuous improvement; to take the pitfalls of previous projects or sprints, and use them to enhance how our team works. Using games and activities we encourage a new perspective on issues, facilitate honest and open discussions and generate solid actions.\r\n \r\nWe have facilitated numerous retrospectives for all sorts of teams and are passionate advocates of the practice. In this hands-on workshop we will share our experiences and through practical examples and demonstrations, attendees will leave having designed their own retrospective to use with their teams. \r\n \r\nWe’ll cover: \r\n* What are the benefits of having retros\r\n* Energisers, games and activities\r\n* Building your own retrospective\r\n* Typical problems and solutions\r\n* How to generate useful actions\r\n",
+            "startsAt": "2019-05-10T15:40:00",
+            "endsAt": "2019-05-10T17:25:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "816ec3d0-8d6c-46d1-ab0b-de01ef9ca520",
+                "name": "Katie Difford"
+              },
+              {
+                "id": "6b600de1-d250-4ce4-b92f-201f5d51b59e",
+                "name": "Mattia Battiston"
+              }
+            ],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          },
+          {
+            "id": "eb1ce572-3ee9-4f7f-81da-4c664c9fe115",
+            "title": "Closing",
+            "description": null,
+            "startsAt": "2019-05-10T17:30:00",
+            "endsAt": "2019-05-10T17:45:00",
+            "isServiceSession": true,
+            "isPlenumSession": true,
+            "speakers": [],
+            "categories": [],
+            "roomId": 5147,
+            "room": "Main"
+          }
+        ],
+        "hasOnlyPlenumSessions": false
+      },
+      {
+        "id": 5148,
+        "name": "Secondary",
+        "sessions": [
+          {
+            "id": "116728",
+            "title": "I'm a mediocre developer",
+            "description": "There's a question that had been with me for a long time: am I a mediocre developer? \r\nThe world of software development is populated by a motley fauna, and over time I have learned to recognize the people who cross my footsteps. And it is also thanks (or through their fault) that this state of mind has matured.\r\nI decided to share what I discovered in order to put myself in a mirror, made with other people, in order to verify if someone else has lived the same vicissitudes as me, and maybe to be able to find an answer to this question thanks to them.",
+            "startsAt": "2019-05-10T10:40:00",
+            "endsAt": "2019-05-10T11:25:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "0e9d51fa-42cc-4ac2-a30f-a9c7f64bfcbe",
+                "name": "Ferdinando Santacroce"
+              }
+            ],
+            "categories": [],
+            "roomId": 5148,
+            "room": "Secondary"
+          },
+          {
+            "id": "118197",
+            "title": "Framework Compass Chart",
+            "description": "I think that right now as JavaScript developers we are in one of the most lively communities out there. We have a lot of power with React, Angular, Vue and so on. So how should we choose the right framework for our new shining project? And what does it mean to choose a framework “in a right way”?\r\n",
+            "startsAt": "2019-05-10T11:40:00",
+            "endsAt": "2019-05-10T12:25:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "885e4f63-be67-4ef4-b5e7-eea89d0c8b18",
+                "name": "Francesco Strazzullo"
+              }
+            ],
+            "categories": [],
+            "roomId": 5148,
+            "room": "Secondary"
+          },
+          {
+            "id": "118012",
+            "title": "Backlog and Planning Poker by real example",
+            "description": "In my lightning talk, I will present the Backlog Prioritization and Planning Poker techniques currently in use in a real-world example within the Research and Development team at Würth Phoenix.\r\n\r\nWe use the Backlog Prioritization technique as an attempt to alleviate that feeling of constant change that developers have as adaptation to market demand alters their development tasks over time.\r\n\r\nThe Planning Poker technique allows us to create shorter, easier to estimate tasks, and helps identify potential feedback cycles that can produce more adaptations, re-engineering and improvements.",
+            "startsAt": "2019-05-10T12:35:00",
+            "endsAt": "2019-05-10T12:50:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "c19542ad-adbd-40ac-b497-ce924e8dd4c8",
+                "name": "Michele Santuari"
+              }
+            ],
+            "categories": [],
+            "roomId": 5148,
+            "room": "Secondary"
+          },
+          {
+            "id": "117777",
+            "title": "Why you need user testing (even if you are a developer)",
+            "description": "Creating great software requires user-centred product decisions from the entire team and a shared responsibility of UX. \r\nUsability testing can help you to really understand how people use the software you’re building and to receive feedback in real-time to inform the next iteration of a product. Do people use software for the same reason you built it? Do they get value from it? With the answers to these questions, you’ll be able to create better software products for people to love and use.",
+            "startsAt": "2019-05-10T12:55:00",
+            "endsAt": "2019-05-10T13:10:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "9ca32742-806f-45d4-91d1-d1d0bd5157e7",
+                "name": "Federica Pecoraro"
+              }
+            ],
+            "categories": [],
+            "roomId": 5148,
+            "room": "Secondary"
+          },
+          {
+            "id": "117049",
+            "title": "A story about resurrecting a legacy project",
+            "description": "This talk is about how to apply XP practices to tackle the difficulties one might encounter when working with a legacy project. \r\nI want to tell a brief real-world story and how some good practices helped me to gain confidence and motivation to bring an old project back to life.\r\n\r\nTopics I want to touch on are testing, refactoring, continuous integration.",
+            "startsAt": "2019-05-10T13:15:00",
+            "endsAt": "2019-05-10T13:30:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "52e6f9d7-2eba-467c-a8b1-7aae0b8effb6",
+                "name": "Christian christian ˎˊ 🍕 pizza in the veins"
+              }
+            ],
+            "categories": [],
+            "roomId": 5148,
+            "room": "Secondary"
+          },
+          {
+            "id": "118013",
+            "title": "Microservices integration: Kafka vs RabbitMQ",
+            "description": "RabbitMQ and Kafka are the most popular brokers, they are often used to integrate microservices. \r\nIn this talk, we will analyse the differences between them showing some real use-case. At the end of this talk, you will have an idea where and when to use RabbitMQ or Kafka.",
+            "startsAt": "2019-05-10T14:40:00",
+            "endsAt": "2019-05-10T15:25:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "a660ad54-ecd0-4cae-8478-03c3cff88050",
+                "name": "Gabriele Santomaggio"
+              }
+            ],
+            "categories": [],
+            "roomId": 5148,
+            "room": "Secondary"
+          },
+          {
+            "id": "117862",
+            "title": "From monolith to microservices: tales from the trenches of a long and ongoing journey",
+            "description": "In the past 20 years at lastminute.com hundreds of developers produced millions of lines of code. The platform has been constantly evolved to support the always increasing number of customers and the complexity of our business.\r\nFour years ago we faced a thought decision as our monolithic system was too large to deal with in an effective way: we decided to break our system using the microservices architectural style.\r\nBut managing microservices is hard, and hard is the journey to get there as\r\nthe overall complexity of the system increases and moves out from the applications directly to the infrastructure. \r\nDespite the challenges faced on both sides the result is worthwhile.\r\nIn this talk I’ll try to summarize the major difficulties, pitfalls and the most important lesson learned during the evolution of our platform. \r\n\r\n",
+            "startsAt": "2019-05-10T15:40:00",
+            "endsAt": "2019-05-10T16:25:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "bd068c11-f2a4-4696-ac3e-efe3f32906e4",
+                "name": "Paolo Banfi"
+              }
+            ],
+            "categories": [],
+            "roomId": 5148,
+            "room": "Secondary"
+          },
+          {
+            "id": "114958",
+            "title": "In Code we trust",
+            "description": "I want to explain you why the code is the only source of truth. You have to put more care about your code and spend less time to build other artefacts like comments, documentation and so on.\r\nI will share you real episodes and my best practices, the lessons  learned and the issues faced",
+            "startsAt": "2019-05-10T16:40:00",
+            "endsAt": "2019-05-10T17:25:00",
+            "isServiceSession": false,
+            "isPlenumSession": false,
+            "speakers": [
+              {
+                "id": "653a5138-c9f3-4989-8d66-55b15a86866c",
+                "name": "Marco Fracassi"
+              }
+            ],
+            "categories": [],
+            "roomId": 5148,
+            "room": "Secondary"
+          }
+        ],
+        "hasOnlyPlenumSessions": false
+      }
+    ],
+    "timeSlots": [
+      {
+        "slotStart": "08:30:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "b34105bc-c29e-4b6c-b111-aa8d9cd86ac2",
+              "title": "Registration",
+              "description": null,
+              "startsAt": "2019-05-10T08:30:00",
+              "endsAt": "2019-05-10T09:30:00",
+              "isServiceSession": true,
+              "isPlenumSession": true,
+              "speakers": [],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          }
+        ]
+      },
+      {
+        "slotStart": "09:30:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "3d7e663c-6bbb-40af-a82b-018bcb5af0ff",
+              "title": "Opening Keynote by Vasco Duarte",
+              "description": "To Be Defined",
+              "startsAt": "2019-05-10T09:30:00",
+              "endsAt": "2019-05-10T10:15:00",
+              "isServiceSession": true,
+              "isPlenumSession": true,
+              "speakers": [
+                {"id": "xyz-vasco-duarte",
+                "name": "Vasco Duarte"}],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          }
+        ]
+      },
+      {
+        "slotStart": "10:15:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "a29f2e5e-0f9c-4e2e-8a4f-36cf863b0d59",
+              "title": "Coffee Break",
+              "description": null,
+              "startsAt": "2019-05-10T10:15:00",
+              "endsAt": "2019-05-10T10:40:00",
+              "isServiceSession": true,
+              "isPlenumSession": true,
+              "speakers": [],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          }
+        ]
+      },
+      {
+        "slotStart": "10:40:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "103989",
+              "title": "Agile Pro Nobis",
+              "description": "In vent'anni o poco meno l'approccio agile allo sviluppo del software è passato da un esoterismo ridicolizzato ad una religione mainstream, con tutto il corpus di credenze e prassi tipiche di entrambe le fasi.\r\n\r\nChi vuole più codice e meno alberi da abbracciare e chi vuole più soft skill e meno sindrome di Asperger; chi vuole redimere le banche, chi vuole l’ascesi del garage startupparo; chi rimane aggrappato alle tavole del Manifesto e chi reinventa la Ruota™ per fare presa su un mercato in cui è davvero difficile differenziarsi. Ne abbiamo di ogni tipo.\r\n\r\nC'è qualcosa che non va in questo attaccamento viscerale per come le cose andrebbero fatte senza la stessa cura e la stessa quantità di discorsi dedicati invece a cosa si dovrebbe fare. Perché, come nelle religioni vere, non bisogna dimenticare che anche l’agile è nato con uno scopo molto semplice: fare tutti felici. Il problema è che “semplice” e “facile” non sono la stessa cosa!\r\n\r\nE nel mondo del software non c'è un al di là in cui rifarsi.\r\n",
+              "startsAt": "2019-05-10T10:40:00",
+              "endsAt": "2019-05-10T11:25:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "f60639ab-a066-43d3-b187-3a125a82b363",
+                  "name": "Jacopo Romei"
+                }
+              ],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          },
+          {
+            "id": 5148,
+            "name": "Secondary",
+            "session": {
+              "id": "116728",
+              "title": "I'm a mediocre developer",
+              "description": "There's a question that had been with me for a long time: am I a mediocre developer? \r\nThe world of software development is populated by a motley fauna, and over time I have learned to recognize the people who cross my footsteps. And it is also thanks (or through their fault) that this state of mind has matured.\r\nI decided to share what I discovered in order to put myself in a mirror, made with other people, in order to verify if someone else has lived the same vicissitudes as me, and maybe to be able to find an answer to this question thanks to them.",
+              "startsAt": "2019-05-10T10:40:00",
+              "endsAt": "2019-05-10T11:25:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "0e9d51fa-42cc-4ac2-a30f-a9c7f64bfcbe",
+                  "name": "Ferdinando Santacroce"
+                }
+              ],
+              "categories": [],
+              "roomId": 5148,
+              "room": "Secondary"
+            },
+            "index": 1
+          }
+        ]
+      },
+      {
+        "slotStart": "11:40:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "118428",
+              "title": "In The End Everything Is Work Ethic",
+              "description": "Agility is living interesting times. The multitude of buzzwords used in the field and the many topics that seems to be esoteric (agile HR, agile marketing, digital transformation, and others) are clear signs that we're in the commodification era. A common pattern starts to emerge: agile is nowadays beyond software development. But what happen if nobody talks about software?  Are there implications for the companies landscape at large? Economic and social impacts, maybe? Doesn't seems to early to move agility beyond software development when, we didn't understood the manifesto principle yet? Meanwhile many others seems to have forgotten XP. If we imagine to draw a line in the sand between principles and practices, where is the thin boundary that separate us from the simplest thing in the world: the ability to work in a proper way beyond the working methods. Because, after all, like a famous Gaping Void cartoon says:  \"In The End Everything Is Work Ethic\"",
+              "startsAt": "2019-05-10T11:40:00",
+              "endsAt": "2019-05-10T12:25:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "52ced012-6621-4900-84b8-620e937cae11",
+                  "name": "Matteo Carella"
+                }
+              ],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          },
+          {
+            "id": 5148,
+            "name": "Secondary",
+            "session": {
+              "id": "118197",
+              "title": "Framework Compass Chart",
+              "description": "I think that right now as JavaScript developers we are in one of the most lively communities out there. We have a lot of power with React, Angular, Vue and so on. So how should we choose the right framework for our new shining project? And what does it mean to choose a framework “in a right way”?\r\n",
+              "startsAt": "2019-05-10T11:40:00",
+              "endsAt": "2019-05-10T12:25:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "885e4f63-be67-4ef4-b5e7-eea89d0c8b18",
+                  "name": "Francesco Strazzullo"
+                }
+              ],
+              "categories": [],
+              "roomId": 5148,
+              "room": "Secondary"
+            },
+            "index": 1
+          }
+        ]
+      },
+      {
+        "slotStart": "12:35:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "116088",
+              "title": "Growing Adaptive Organizations",
+              "description": "Agile is old. Good and old. The fathers of Agile started experimenting with its principles and practices back in the ‘80s, when the problem they faced was how to provide a software production team with a more sensible way to develop code and deliver actual value to the stakeholders.\r\n\r\nThe second wave of Agile, a couple of decades later, was about scaling the production beyond one single team (we are still in that wave).\r\n\r\nThe third wave of Agile, which just recently started and went well beyond the realm of IT alone, finally realized that true agility can only be achieved when: 1) it’s adopted, in context-specific ways, throughout the entire organization and; 2) it includes the way the organization interacts with its market and environment (call it Business Agility or any other similar term).\r\n\r\nWhat we are seeing today in the most innovative organizations, even outside of the IT industry, is that the underlying values and principles of agility are applied with an holistic approach to all organizational functions (finance, marketing, HR, operations, governance, procurement, production and so forth).\r\n\r\nWe also seeing how the organizational structure itself and the style of leadership in these organizations have evolved, to be consistent with the way agility works and delivers on its promises.\r\n\r\nI know quite well from my experience with clients (working with tech teams, design teams, program and project managers, executives, HR, finance) and from helping them to rethink and restructure the way their organization works, that there are many challenges that an organization has to face to make this transition — and many pitfalls as well.\r\n\r\nAmong the different challenges (learning new skills and practices, descaling processes, decentralizing decision making and accepting inherent uncertainty, just to name a few) one that is often overlooked is how to change the perception of the organization itself, so that it can become a 21st-century, adaptive organization. \r\n\r\nIn fact, while “traditional” organizations revolved mainly around production — and were therefore perceived through that set of lenses — adaptive organizations include continuous organizational learning and high-efficiency collaboration as part of their operational DNA and of their long-term sustainability and success.\r\n\r\nTherefore, one critical question is: how can we help people shifting their perception of “what needs to be done” considering three different but interrelated dimensions? And what are the practical implications of this?\r\n\r\nIn this session I’m going to share some of the lessons I’ve learned while helping companies to rethink themselves. I’m not going to provide recipes or instructions (I don’t believe those can be replicated in a different context). Rather, I’d like to share the challenges that we encountered and talk about how the way we faced them helped the organization to grow into an adaptive one. \r\n\r\nI’d also like to provide food for thought that might, hopefully, help executives, managers and leaders move in the direction of agility with a clearer sense of direction and with more realistic expectations.\r\n\r\n=================\r\n\r\nL’Agile è antico. Valido e antico. I fondatori dell’Agile hanno iniziato a sperimentare i suoi principi e pratiche già negli anni ’80, quando il problema che avevano era di dare a un team di produzione software un modo più ragionevole di sviluppare codice e di consegnare reale valore agli stakeholder.\r\n\r\nLa seconda ondata dell’Agile, un paio di decenni dopo, si è chiesta come scalare il modello di produzione al di là del singolo team (siamo ancora in questa fase).\r\n\r\nLa terza ondata dell’Agile, che è iniziata di recente e va ben oltre l’ambito dell’IT, si è finalmente resa conto che la vera agilità si può ottenere solo quando: 1) viene adottata, in modo specifico al contesto, nell’intera organizzazione; 2) tiene conto del modo in cui l’organizzazione interagisce con il proprio mercato ed ecosistema (possiamo chiamarla Business Agility).\r\n\r\nCiò che vediamo oggi nelle organizzazioni più innovative, anche al di fuori dell’industria dell’IT, è che i principi e i valori fondanti dell’agilità vengono applicati, in modo olistico, a tutte le funzioni aziendali (finanza, marketing, HR, operations, governance, procurement, produzione e così via).\r\n\r\nVediamo anche come la stessa struttura organizzativa e lo stile di leadership di queste organizzazioni si è evoluto, per essere coerente con il modo in cui l’agilità funziona e “porta a casa” i risultati.\r\n\r\nDalla mia esperienza con i clienti, so molto bene sono molte le sfide che un’organizzazione deve affrontare per fare questo cambiamento — e anche molti tranelli.\r\n\r\nTra le sfide varie sfide (imparare nuove abilità e pratiche, semplificare i processi, decentralizzare i processi decisionali e accettare l’incertezza, tanto per citarne alcune), una che spesso viene sottovalutata o non presa in considerazione è come cambiare il modo in cui l’organizzazione percepisce sé stessa, per poter diventare adattiva e contemporanea. \r\n\r\nInfatti, mentre le organizzazioni “tradizionali” sono incentrate sulla produzione — e vengono perciò percepite in quel modo — le organizzazioni adattive aggiungono al loro “DNA” l’apprendimento continuo a livello organizzativo e la collaborazione altamente efficiente, così da avere sostenibilità e successo al tempo stesso.\r\n\r\nIn questa sessione intento condividere alcune lezioni che ho imparato sul campo nell’aiutare organizzazioni diverse a ripensarsi. Non intendo fornire ricette o istruzioni da seguire (non credo che siano replicabili in contesti diversi). Piuttosto, vorrei condividere le sfide che abbiamo incontrato e parlare del modo in cui le abbiamo affrontate, per andare verso modelli adattativi.\r\n\r\nVorrei fornire spunti che possano, auspicabilmente, aiutare dirigenti, manager e leader ad andare nella direzione dell’agilità con un più chiaro senso di orientamento e aspettative più realistiche.",
+              "startsAt": "2019-05-10T12:35:00",
+              "endsAt": "2019-05-10T13:20:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "5276fa96-c624-48e4-8cac-8227d810419d",
+                  "name": "Andrea Provaglio"
+                }
+              ],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          },
+          {
+            "id": 5148,
+            "name": "Secondary",
+            "session": {
+              "id": "118012",
+              "title": "Backlog and Planning Poker by real example",
+              "description": "In my lightning talk, I will present the Backlog Prioritization and Planning Poker techniques currently in use in a real-world example within the Research and Development team at Würth Phoenix.\r\n\r\nWe use the Backlog Prioritization technique as an attempt to alleviate that feeling of constant change that developers have as adaptation to market demand alters their development tasks over time.\r\n\r\nThe Planning Poker technique allows us to create shorter, easier to estimate tasks, and helps identify potential feedback cycles that can produce more adaptations, re-engineering and improvements.",
+              "startsAt": "2019-05-10T12:35:00",
+              "endsAt": "2019-05-10T12:50:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "c19542ad-adbd-40ac-b497-ce924e8dd4c8",
+                  "name": "Michele Santuari"
+                }
+              ],
+              "categories": [],
+              "roomId": 5148,
+              "room": "Secondary"
+            },
+            "index": 1
+          }
+        ]
+      },
+      {
+        "slotStart": "12:55:00",
+        "rooms": [
+          {
+            "id": 5148,
+            "name": "Secondary",
+            "session": {
+              "id": "117777",
+              "title": "Why you need user testing (even if you are a developer)",
+              "description": "Creating great software requires user-centred product decisions from the entire team and a shared responsibility of UX. \r\nUsability testing can help you to really understand how people use the software you’re building and to receive feedback in real-time to inform the next iteration of a product. Do people use software for the same reason you built it? Do they get value from it? With the answers to these questions, you’ll be able to create better software products for people to love and use.",
+              "startsAt": "2019-05-10T12:55:00",
+              "endsAt": "2019-05-10T13:10:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "9ca32742-806f-45d4-91d1-d1d0bd5157e7",
+                  "name": "Federica Pecoraro"
+                }
+              ],
+              "categories": [],
+              "roomId": 5148,
+              "room": "Secondary"
+            },
+            "index": 1
+          }
+        ]
+      },
+      {
+        "slotStart": "13:15:00",
+        "rooms": [
+          {
+            "id": 5148,
+            "name": "Secondary",
+            "session": {
+              "id": "117049",
+              "title": "A story about resurrecting a legacy project",
+              "description": "This talk is about how to apply XP practices to tackle the difficulties one might encounter when working with a legacy project. \r\nI want to tell a brief real-world story and how some good practices helped me to gain confidence and motivation to bring an old project back to life.\r\n\r\nTopics I want to touch on are testing, refactoring, continuous integration.",
+              "startsAt": "2019-05-10T13:15:00",
+              "endsAt": "2019-05-10T13:30:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "52e6f9d7-2eba-467c-a8b1-7aae0b8effb6",
+                  "name": "Christian christian ˎˊ 🍕 pizza in the veins"
+                }
+              ],
+              "categories": [],
+              "roomId": 5148,
+              "room": "Secondary"
+            },
+            "index": 1
+          }
+        ]
+      },
+      {
+        "slotStart": "13:30:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "5d74c460-4e42-47bd-92ee-5628fde71470",
+              "title": "Lunch Break",
+              "description": null,
+              "startsAt": "2019-05-10T13:30:00",
+              "endsAt": "2019-05-10T14:40:00",
+              "isServiceSession": true,
+              "isPlenumSession": true,
+              "speakers": [],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          }
+        ]
+      },
+      {
+        "slotStart": "14:40:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "103560",
+              "title": "#NoElevator for DevOps",
+              "description": "DevOps is the last actual wave for create a sustainable environment that improves the capacity to rapidly adapt an organization to new market challenges.\r\nDevOps is Lean, and is strongly based on practices that were born with eXtreme Programming, reviewed in function of the digital technologies innovation and the mantra of the Continuous Delivery.\r\nBut there isn’t any way to become a DevOps company without a Cultural Change, focused on People and Interaction, and giving to the automation the right space behind that.\r\nIn this talk we will speak about the Cultural challenges behind a real DevOps transformation, highlighting how this means a new extended Agile mindset and not only the adoption of new tools, remembering that People are a non-trivial machines.\r\n",
+              "startsAt": "2019-05-10T14:40:00",
+              "endsAt": "2019-05-10T15:25:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "f26f7024-b089-4c29-a9e8-b1cf598193dc",
+                  "name": "Felice Pescatore"
+                }
+              ],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          },
+          {
+            "id": 5148,
+            "name": "Secondary",
+            "session": {
+              "id": "118013",
+              "title": "Microservices integration: Kafka vs RabbitMQ",
+              "description": "RabbitMQ and Kafka are the most popular brokers, they are often used to integrate microservices. \r\nIn this talk, we will analyse the differences between them showing some real use-case. At the end of this talk, you will have an idea where and when to use RabbitMQ or Kafka.",
+              "startsAt": "2019-05-10T14:40:00",
+              "endsAt": "2019-05-10T15:25:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "a660ad54-ecd0-4cae-8478-03c3cff88050",
+                  "name": "Gabriele Santomaggio"
+                }
+              ],
+              "categories": [],
+              "roomId": 5148,
+              "room": "Secondary"
+            },
+            "index": 1
+          }
+        ]
+      },
+      {
+        "slotStart": "15:40:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "116732",
+              "title": "Retrospectives: Looking back to move forward",
+              "description": "Retrospection. \"The action of looking back on past events\". Whilst we can’t change past events, we can definitely learn from them to make the future better. \r\n \r\nThe intention of retrospectives is to focus on continuous improvement; to take the pitfalls of previous projects or sprints, and use them to enhance how our team works. Using games and activities we encourage a new perspective on issues, facilitate honest and open discussions and generate solid actions.\r\n \r\nWe have facilitated numerous retrospectives for all sorts of teams and are passionate advocates of the practice. In this hands-on workshop we will share our experiences and through practical examples and demonstrations, attendees will leave having designed their own retrospective to use with their teams. \r\n \r\nWe’ll cover: \r\n* What are the benefits of having retros\r\n* Energisers, games and activities\r\n* Building your own retrospective\r\n* Typical problems and solutions\r\n* How to generate useful actions\r\n",
+              "startsAt": "2019-05-10T15:40:00",
+              "endsAt": "2019-05-10T17:25:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "816ec3d0-8d6c-46d1-ab0b-de01ef9ca520",
+                  "name": "Katie Difford"
+                },
+                {
+                  "id": "6b600de1-d250-4ce4-b92f-201f5d51b59e",
+                  "name": "Mattia Battiston"
+                }
+              ],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          },
+          {
+            "id": 5148,
+            "name": "Secondary",
+            "session": {
+              "id": "117862",
+              "title": "From monolith to microservices: tales from the trenches of a long and ongoing journey",
+              "description": "In the past 20 years at lastminute.com hundreds of developers produced millions of lines of code. The platform has been constantly evolved to support the always increasing number of customers and the complexity of our business.\r\nFour years ago we faced a thought decision as our monolithic system was too large to deal with in an effective way: we decided to break our system using the microservices architectural style.\r\nBut managing microservices is hard, and hard is the journey to get there as\r\nthe overall complexity of the system increases and moves out from the applications directly to the infrastructure. \r\nDespite the challenges faced on both sides the result is worthwhile.\r\nIn this talk I’ll try to summarize the major difficulties, pitfalls and the most important lesson learned during the evolution of our platform. \r\n\r\n",
+              "startsAt": "2019-05-10T15:40:00",
+              "endsAt": "2019-05-10T16:25:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "bd068c11-f2a4-4696-ac3e-efe3f32906e4",
+                  "name": "Paolo Banfi"
+                }
+              ],
+              "categories": [],
+              "roomId": 5148,
+              "room": "Secondary"
+            },
+            "index": 1
+          }
+        ]
+      },
+      {
+        "slotStart": "16:40:00",
+        "rooms": [
+          {
+            "id": 5148,
+            "name": "Secondary",
+            "session": {
+              "id": "114958",
+              "title": "In Code we trust",
+              "description": "I want to explain you why the code is the only source of truth. You have to put more care about your code and spend less time to build other artefacts like comments, documentation and so on.\r\nI will share you real episodes and my best practices, the lessons  learned and the issues faced",
+              "startsAt": "2019-05-10T16:40:00",
+              "endsAt": "2019-05-10T17:25:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "653a5138-c9f3-4989-8d66-55b15a86866c",
+                  "name": "Marco Fracassi"
+                }
+              ],
+              "categories": [],
+              "roomId": 5148,
+              "room": "Secondary"
+            },
+            "index": 1
+          }
+        ]
+      },
+      {
+        "slotStart": "17:30:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "eb1ce572-3ee9-4f7f-81da-4c664c9fe115",
+              "title": "Closing",
+              "description": null,
+              "startsAt": "2019-05-10T17:30:00",
+              "endsAt": "2019-05-10T17:45:00",
+              "isServiceSession": true,
+              "isPlenumSession": true,
+              "speakers": [],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          }
+        ]
+      }
+    ]
+  }
+]
