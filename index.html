@@ -58,10 +58,10 @@
                         <a class="agile-brand-link iam" target="_blank" href="https://www.agilemovement.it"><img src="assets/images/loghi/avb.svg" height="30" alt=""></a>
                     </nav>
                     <ul class="navbar-nav flex-row justify-content-end justify-content-md-start">
-                      <li class="nav-item active">
+                      <li class="nav-item active d-none d-md-block">
                         <a class="nav-link js-scroll-to" href="#event">Event</a>
                       </li>
-                      <li class="nav-item schedule-item">
+                      <li class="nav-item schedule-item d-none d-md-block">
                         <a class="nav-link js-scroll-to" href="#schedule">Schedule</a>
                       </li>
                       <li class="nav-item agile-tickets">
@@ -273,7 +273,7 @@
                 </div>
             </section>
             <!-- Togliere il display:none; inline per far apparire sessionize. Bisogna anche cambiare il json nel file js con quello di Agile Venture BZ. -->
-            <section class="agile-sessionize-outer">
+            <section id="schedule" class="agile-sessionize-outer">
                 <div class="agile-sessionize-inner">
                     <a id="schedule"></a>
                     <div class="container">
@@ -317,16 +317,15 @@
                 <div class="container">
                     <div class="partners-inner row">
                         <div class="main-partners col-md-8">
-
                             <h3>Platinum sponsors</h3>
                             <div class="main-partners-listing">
-                                <a target="_blank" href="http://www.sky.it/"><img src="assets/images/loghi/partners/sky.png"></a>
                                 <a target="_blank" href="https://www.vodafone.it/"><img src="assets/images/loghi/partners/vodafone.png"></a>
-                                <!-- <a target="_blank" href="https://www.mia-platform.eu/"><img src="assets/images/loghi/partners/mia.svg"></a> -->
+                                <a target="_blank" href="http://www.sky.it/"><img src="assets/images/loghi/partners/sky.png"></a>
+                                <a target="_blank" href="https://www.mia-platform.eu/"><img src="assets/images/loghi/partners/mia.png"></a>
                                 <a target="_blank" href="http://www.6agile.it/"><img src="assets/images/loghi/partners/6agile.png"></a>
                               </div>
                         </div>
-                        <div class="main-partners col-md-4">
+                        <div class="main-partners col-md-3 offset-md-1">
                             <h3>Gold sponsors</h3>
                             <div class="main-partners-listing">
                                 <a target="_blank" href="https://www.xpeppers.com/"><img src="assets/images/loghi/partners/xpeppers_claranet.png"></a>
@@ -334,33 +333,31 @@
                         </div>
                     </div>
                     <div class="partners-inner row">
-                        <div class=" main-partners-listing col-md-8">
-                            <div class=" media-partners">
-                                <h3>Media partners</h3>
-                                <div class="main-partners-listing">
-                                    <a target="_blank" href="https://www.fightbean.it"><img src="assets/images/loghi/media-partners/fightbean.png"></a>
-                                    <a target="_blank" href="https://sessionize.com/"><img src="assets/images/loghi/media-partners/sessionize.png"></a>
-                                    <a target="_blank" href="https://www.register.it/"><img src="assets/images/loghi/media-partners/registerit.png"></a>
-                                    <a target="_blank" href="https://www.docebo.com/"><img src="assets/images/loghi/media-partners/docebo.png"></a>
-                                    <a target="_blank" href="https://swicket.io/"><img src="assets/images/loghi/media-partners/swicket.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="main-partners-listing istituzionali">
-                                <h3>Institutional partners</h3>
-                                <div class="other-partners-listing">
-                                    <a target="_blank" href="https://noi.bz.it/en"><img src="assets/images/loghi/istituzionali/noi.svg"></a>
-                                    <!-- <a target="_blank" href="https://www.agilemovement.it/"><img src="assets/images/loghi/iam.png"></a> -->
-                                </div>
+                        <div class="media-partners col-md-12">
+                            <h3>Media partners</h3>
+                            <div class="main-partners-listing">
+                                <a target="_blank" href="https://www.fightbean.it"><img src="assets/images/loghi/media-partners/fightbean.png"></a>
+                                <a target="_blank" href="https://www.register.it/"><img src="assets/images/loghi/media-partners/registerit.png"></a>
+                                <a target="_blank" href="https://www.docebo.com/"><img src="assets/images/loghi/media-partners/docebo.png"></a>
+                                <a target="_blank" href="https://swicket.io/"><img src="assets/images/loghi/media-partners/swicket.png"></a>
+                                <a target="_blank" href="https://sessionize.com/"><img src="assets/images/loghi/media-partners/sessionize.png"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 agile-sponsor-cta">
-                        <a id="become-sponsor" href="mailto:agile-venture-bolzano@googlegroups.com?subject=Sponsor: Agile Venture Bolzano" class="agile-bigcta-inner">
-                            <span class="agile-bigcta-label">Do you want to become a sponsor?</span>
-                        </a>
+                    <div class="partners-inner row">
+                        <div class="main-partners istituzionali col-12">
+                            <h3>Institutional partners</h3>
+                            <div class="other-partners-listing">
+                                <a target="_blank" href="https://noi.bz.it/en"><img src="assets/images/loghi/istituzionali/noi.svg"></a>
+                                <!-- <a target="_blank" href="https://www.agilemovement.it/"><img src="assets/images/loghi/iam.png"></a> -->
+                            </div>
+                        </div>
                     </div>
+                </div>
+                <div class="agile-sponsor-cta">
+                    <a id="become-sponsor" href="mailto:agile-venture-bolzano@googlegroups.com?subject=Sponsor: Agile Venture Bolzano" class="agile-bigcta-inner">
+                        <span class="agile-bigcta-label">Do you want to become a sponsor?</span>
+                    </a>
                 </div>
             </div>
             <div class="main-footer-below">

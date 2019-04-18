@@ -4,7 +4,7 @@ $(function() {
 
     //sessionize Json handling new version
     // $.getJSON('https://sessionize.com/api/v2/zo80faqt/view/all',function(data){
-    $.getJSON('https://agile-venture-bolzano.github.io/2019/assets/json/all.json',function(data){
+    $.getJSON('/assets/json/all.json',function(data){
         $.each(data.speakers,function(i,item){
             var key = item.id;
             activeSpeakers[key] = item;
@@ -29,16 +29,27 @@ $(function() {
             sessionizeModalHtml += '</div>';
             sessionizeModalHtml += '<div class="modal-body"><div class="left-modal">';
             if (item.speakers.length > 0) {
-                sessionizeModalHtml += '<figure class="modal-speaker-img">';
-                sessionizeModalHtml += '<img src="'+activeSpeakers[item.speakers[0]].profilePicture+'">';
-                sessionizeModalHtml += '</figure>';
+                sessionizeModalHtml += '<div class="modal-speaker-img-container">';
+                for(var i=0; i<item.speakers.length; i++){
+                    sessionizeModalHtml += '<figure class="modal-speaker-img">';
+                    sessionizeModalHtml += '<img src="'+activeSpeakers[item.speakers[i]].profilePicture+'">';
+                    sessionizeModalHtml += '</figure>';
+                }
+                sessionizeModalHtml += '</div>';
             }
             sessionizeModalHtml += '</div>';
 
             sessionizeModalHtml += '<div class="right-modal">';
 
             if(item.speakers.length > 0) {
-            sessionizeModalHtml += '<span class="colus modal-speaker-name">'+activeSpeakers[item.speakers[0]].fullName+'</span>';
+                sessionizeModalHtml += '<div class="modal-speaker-name-container">';
+                for(var i=0; i<item.speakers.length; i++){
+                    sessionizeModalHtml += '<span class="colus modal-speaker-name">'+activeSpeakers[item.speakers[i]].fullName+'</span>';
+                    if(i<(item.speakers.length-1)){
+                       sessionizeModalHtml += ' - ';
+                    }
+                }
+                sessionizeModalHtml += '</div>';
             }
 
             sessionizeModalHtml += '<h3 class="modal-session-name">'+item.title+'</h3>';
@@ -65,7 +76,7 @@ $(function() {
 
     //sessionize Json handling new version
     var afterActiveSpeakerPopulatedCallback = function() {
-        $.getJSON('https://agile-venture-bolzano.github.io/2019/assets/json/gridtable.json', function(data){
+        $.getJSON('/assets/json/gridtable.json', function(data){
             var sessionizeHtml = '<div class="sessionize-table" id="events"><div class="sessionize-table-inner"><div class="sessionize-table-body">';
             sessionizeHtml += '<div class="sessionize-table-row heading">';
             sessionizeHtml += '<div class="sessionize-table-cell">&nbsp;</div>';
@@ -87,7 +98,7 @@ $(function() {
             sessionizeHtml += '</div>';
 
             //this echoes timeSlots
-            $.each(data[0].timeSlots,function(i,item){
+            $.each(data[0].timeSlots,function(index,item){
                 sessionizeHtml += '<div class="sessionize-table-row content">';
                 sessionizeHtml += '<div class="sessionize-table-cell"><span class="sessionize-main-hour">'+item.slotStart.slice(0,5)+'</span></div>';
 
@@ -99,12 +110,33 @@ $(function() {
                     var formattedDateEnds = new Date(item.session.endsAt);
                     var hEnd = formattedDateEnds.getHours();
                     var mEnd = ('0'+formattedDateEnds.getMinutes()).slice(-2);
+                    
+                    var roomClass = item.name.toLowerCase();
+                    roomClass = roomClass.trim();
 
                     if(['117777', '117049', '114958'].includes(item.session.id)) {
-                        sessionizeHtml += '<div class="sessionize-table-cell"><div class="sessionize-table-event"></div></div>';
+                        sessionizeHtml += '<div class="sessionize-table-cell empty-cell"><div class="sessionize-table-event"></div></div>';
                     }
-
-                    sessionizeHtml += '<div class="sessionize-table-cell"><div class="sessionize-table-event">';
+                    
+                    
+                    if(item.session.speakers.length == 0){
+                        sessionizeHtml += '<div class="sessionize-table-cell break-event">';
+                    }else{
+                         sessionizeHtml += '<div class="sessionize-table-cell">';
+                    }
+                    
+                    var multipleSlotClass = '';                    
+                    if(index < (data[0].timeSlots.length-1)){
+                        var nextSlotStart = new Date('1/1/2011 '+data[0].timeSlots[index+1].slotStart);
+                        var nextSlotStartTimeStamp = nextSlotStart.getTime();
+                        var itemEndTime = new Date('1/1/2011 '+hEnd + ':' +mEnd + ':00');
+                        var itemEndTimeTimeStamp = itemEndTime.getTime();
+                        if(itemEndTime>nextSlotStart){
+                            multipleSlotClass = 'overflowd';
+                        }
+                    }
+                    
+                    sessionizeHtml += '<div class="sessionize-table-event '+roomClass+'-room '+multipleSlotClass+'">';
 
                     sessionizeHtml += '<div class="sessionize-mobile-room d-flex align-items-center d-md-none mb-3">';
                     if(item.id == 5147) {
@@ -127,8 +159,15 @@ $(function() {
                 });
                 sessionizeHtml += '</div>';
             });
-
-
+            
+            
+            // ultima ora (fine della conferenza)
+            sessionizeHtml += '<div class="sessionize-table-row content">';
+            var finishingHourEnds = new Date(data[0].timeSlots[data[0].timeSlots.length-1].rooms[0].session.endsAt);
+            var finishingHourhEnd = finishingHourEnds.getHours();
+            var finishingHourmEnd = ('0'+finishingHourEnds.getMinutes()).slice(-2);
+            sessionizeHtml += '<div class="sessionize-table-cell"><span class="sessionize-main-hour">'+finishingHourhEnd+':'+finishingHourmEnd+'</span></div>';
+            sessionizeHtml += '</div>';
 
 
             sessionizeHtml += '</div></div></div>';

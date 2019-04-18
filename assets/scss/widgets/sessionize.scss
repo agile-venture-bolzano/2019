@@ -321,9 +321,18 @@
     .sessionize-table-body {
         .sessionize-table-row {
             @include media-breakpoint-up(md) {
-                display: flex;
-                align-items: center;
-                margin-top: 38px;
+                display: flex!important;
+                position: relative;
+                padding-top: 1px;
+                &:not(.heading):after{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 70px;
+                    height: 1px;
+                    background: $hr-color;
+                }
             }
             @include media-breakpoint-down(sm) {
                 border-width: 1px 0 0 0;
@@ -351,6 +360,10 @@
             }
             &.heading {
                 .sessionize-table-cell {
+                    display: block;
+                    &:not(:first-child){
+                        display: block;
+                    }
                     .sessionize-rooms {
                         display: flex;
                         flex-direction: column;
@@ -380,6 +393,7 @@
                 }
             }
             .sessionize-table-cell {
+                position: relative;
                 .sessionize-table-event {
                     display: flex;
                     flex-direction: column;
@@ -399,36 +413,72 @@
                         color: rgba($body-color, .7);
                         font-size: 15px;
                         display: flex;
-                        flex-direction: column;
-                        @include media-breakpoint-up(md) {
-                            .sessionize-event-title {
-                                span {
-                                    position: relative;
-                                    &:after {
-                                        content: "";
-                                        position: absolute;
-                                        left: 0;
-                                        right: 100%;
-                                        bottom: -2px;;
-                                        background: $primary;
-                                        height: 4px;
-                                        transition: right 400ms ease-in-out;
-                                    }
-                                }
-                                
-                            }
-                            &:hover {
-                                text-decoration: none;
-                                .sessionize-event-title {
-                                    span {
-                                       &:after {
-                                            right: 0;
-                                        } 
-                                    } 
-                                }
+                        flex-direction: column;                        
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+                    @include media-breakpoint-up(md) {
+                        background: #fff;
+                        padding: 30px;
+                        border-radius: 6px;
+                        border-right: 1px solid #cccdcc;
+                        /*&.overflowd{
+                            position: absolute;
+                            left: 45px;
+                            right: 0;
+                            height: 300%;
+                            z-index: 1;
+                        }*/
+                    }
+                }
+                @include media-breakpoint-up(md) {
+                    &:not(.break-event) .sessionize-table-event{
+                        position: relative;
+                        overflow: hidden;
+                        &:after{
+                            content: "";
+                            width: 6px;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            bottom: 0;
+                        }    
+                        &.main-room:after{background-color: $green;}
+                        &.secondary-room:after{background-color: $yellow;}
+                        &:hover .sessionize-event-link{
+                            color: #000;
+                        }
+                    }
+                    &.empty-cell{
+                        .sessionize-table-event{
+                            pointer-events: none;
+                            overflow: visible;
+                            border-radius: 0 6px 6px 0;
+                            &:before{
+                                content: "";
+                                position: absolute;
+                                left: 0;
+                                right: -1px;
+                                top: -5px;
+                                height: 10px;
+                                background: #fff;  
+                                z-index: 1;
+                                border-right: 1px solid #cccdcc;
+                                border-left: 6px solid;
                             }
                         }
-                        
+                        &:nth-child(2) .sessionize-table-event:after{background-color: $green;}
+                        &:nth-child(2) .sessionize-table-event:before{border-left-color: $green;}
+                        &:nth-child(3) .sessionize-table-event:after{background-color: $yellow;}
+                        &:nth-child(3) .sessionize-table-event:before{border-left-color: $yellow;}
+                    }
+                }
+                @include media-breakpoint-down(sm) {
+                    &.empty-cell{
+                        .sessionize-table-event{
+                            padding: 0;
+                        }
                     }
                 }
                 .sessionize-main-hour {
@@ -436,12 +486,43 @@
                     font-size: 20px;
                     line-height: 24px;
                     color: $body-color;
+                    @include media-breakpoint-up(md) {
+                        display: block;
+                        margin-top: -13px;
+                    }
                 }
                 
                 @include media-breakpoint-up(md) {
-                    width: 37.5%;
+                    width: 43%;  
+                    padding-left: 45px;
+                    &:not(:first-child){
+                        align-self: stretch;
+                        display: flex;
+                        .sessionize-table-event{
+                            flex: 1;
+                        }
+                    }
                     &:first-child {
-                        width: 25%;
+                        width: 15%;
+                        padding-left: 0;
+                    }
+                    &.break-event{
+                        pointer-events: none;
+                        flex: 1;
+                        padding-right: 0;
+                        text-align: center;
+                        width: auto;
+                        .sessionize-table-event{
+                            background: none;
+                            border: none;
+                        }
+                        .sessionize-event-title{
+                            font-size: 12px;
+                            font-weight: 700;
+                            letter-spacing: 3px;
+                            text-transform: uppercase;
+                            color: $body-color;
+                        }
                     }
                 }
             }

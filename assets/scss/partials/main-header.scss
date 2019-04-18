@@ -32,6 +32,11 @@
                 color: $purple;
                 position: relative;
                 padding: 20px 36px 20px 30px;
+                padding-right: 36px!important;
+                .point-element{
+                    transform: none;
+                    top: -7px;
+                }
                 &:before {
                     content: "";
                     position: absolute;
