@@ -678,6 +678,35 @@
           }
         ]
       },
+
+
+
+      {
+        "slotStart": "15:25:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "a29f2e5e-0f9c-4e2e-8a4f-36cf863b0d",
+              "title": "Coffee Break",
+              "description": null,
+              "startsAt": "2019-05-10T15:25:00",
+              "endsAt": "2019-05-10T15:50:00",
+              "isServiceSession": true,
+              "isPlenumSession": true,
+              "speakers": [],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          }
+        ]
+      },
+
+
+
       {
         "slotStart": "15:40:00",
         "rooms": [
