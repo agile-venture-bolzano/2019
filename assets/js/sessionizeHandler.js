@@ -110,22 +110,22 @@ $(function() {
                     var formattedDateEnds = new Date(item.session.endsAt);
                     var hEnd = formattedDateEnds.getHours();
                     var mEnd = ('0'+formattedDateEnds.getMinutes()).slice(-2);
-                    
+
                     var roomClass = item.name.toLowerCase();
                     roomClass = roomClass.trim();
 
-                    if(['117777', '117049', '114958'].includes(item.session.id)) {
-                        sessionizeHtml += '<div class="sessionize-table-cell empty-cell"><div class="sessionize-table-event"></div></div>';
+                    if (['117777', '117049'].includes(item.session.id)) {
+                      sessionizeHtml += '<div class="sessionize-table-cell empty-cell"><div class="sessionize-table-event"></div></div>';
                     }
-                    
-                    
+
                     if(item.session.speakers.length == 0){
-                        sessionizeHtml += '<div class="sessionize-table-cell break-event">';
-                    }else{
-                         sessionizeHtml += '<div class="sessionize-table-cell">';
+                      sessionizeHtml += '<div class="sessionize-table-cell break-event">';
+                    } else {
+                      sessionizeHtml += '<div class="sessionize-table-cell">';
                     }
-                    
-                    var multipleSlotClass = '';                    
+
+
+                    var multipleSlotClass = '';
                     if(index < (data[0].timeSlots.length-1)){
                         var nextSlotStart = new Date('1/1/2011 '+data[0].timeSlots[index+1].slotStart);
                         var nextSlotStartTimeStamp = nextSlotStart.getTime();
@@ -135,7 +135,7 @@ $(function() {
                             multipleSlotClass = 'overflowd';
                         }
                     }
-                    
+
                     sessionizeHtml += '<div class="sessionize-table-event '+roomClass+'-room '+multipleSlotClass+'">';
 
                     sessionizeHtml += '<div class="sessionize-mobile-room d-flex align-items-center d-md-none mb-3">';
@@ -156,11 +156,15 @@ $(function() {
                     sessionizeHtml += '<span class="sessionize-event-title"><span>'+item.session.title+'</span></span></a>';
 
                     sessionizeHtml += '</div></div>';
+
+                    if ('114958' === item.session.id) {
+                      sessionizeHtml += '<div class="sessionize-table-cell empty-cell"><div class="sessionize-table-event"></div></div>';
+                    }
                 });
                 sessionizeHtml += '</div>';
             });
-            
-            
+
+
             // ultima ora (fine della conferenza)
             sessionizeHtml += '<div class="sessionize-table-row content">';
             var finishingHourEnds = new Date(data[0].timeSlots[data[0].timeSlots.length-1].rooms[0].session.endsAt);

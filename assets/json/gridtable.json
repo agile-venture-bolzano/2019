@@ -40,7 +40,7 @@
             "title": "Coffee Break",
             "description": null,
             "startsAt": "2019-05-10T10:15:00",
-            "endsAt": "2019-05-10T10:40:00",
+            "endsAt": "2019-05-10T10:45:00",
             "isServiceSession": true,
             "isPlenumSession": true,
             "speakers": [],
@@ -51,9 +51,9 @@
           {
             "id": "103989",
             "title": "Agile Pro Nobis",
-          "description": "In twenty years or so, agile software development went from being a ridiculed exoteric cult to mainstream religion, featuring beliefs and traits typical of both phases.\r\n\r\nSomeone wants more code and less tree hugging, someone else wants more soft skills and less engineering mindset. Someone wants to redeem banks, others crave start-up asceticism. Some are clinging to the Tables of the Manifesto while some other is re-inventing the Wheel® in a desperate attempt to get their place in a market in which it has become tough to differentiate ourselves. We have got all of them!\r\n\r\nSomething is broken in this visceral attachment to the how rather than the what. We shouldn't forget, as much as in true religions, that agile was born with a simple goal: making everybody happier. The problem is that \"simple\" is not \"easy\".\r\n\r\nAnd in software engineering there is no afterlife to get even by.\r\n\r\n",
-            "startsAt": "2019-05-10T10:40:00",
-            "endsAt": "2019-05-10T11:25:00",
+            "description": "In twenty years or so, agile software development went from being a ridiculed exoteric cult to mainstream religion, featuring beliefs and traits typical of both phases.\r\n\r\nSomeone wants more code and less tree hugging, someone else wants more soft skills and less engineering mindset. Someone wants to redeem banks, others crave start-up asceticism. Some are clinging to the Tables of the Manifesto while some other is re-inventing the Wheel® in a desperate attempt to get their place in a market in which it has become tough to differentiate ourselves. We have got all of them!\r\n\r\nSomething is broken in this visceral attachment to the how rather than the what. We shouldn't forget, as much as in true religions, that agile was born with a simple goal: making everybody happier. The problem is that \"simple\" is not \"easy\".\r\n\r\nAnd in software engineering there is no afterlife to get even by.\r\n\r\n",
+            "startsAt": "2019-05-10T10:45:00",
+            "endsAt": "2019-05-10T11:30:00",
             "isServiceSession": false,
             "isPlenumSession": false,
             "speakers": [
@@ -70,8 +70,8 @@
             "id": "118428",
             "title": "In The End Everything Is Work Ethic",
             "description": "Agility is living interesting times. The multitude of buzzwords used in the field and the many topics that seems to be esoteric (agile HR, agile marketing, digital transformation, and others) are clear signs that we're in the commodification era. A common pattern starts to emerge: agile is nowadays beyond software development. But what happen if nobody talks about software?  Are there implications for the companies landscape at large? Economic and social impacts, maybe? Doesn't seems to early to move agility beyond software development when, we didn't understood the manifesto principle yet? Meanwhile many others seems to have forgotten XP. If we imagine to draw a line in the sand between principles and practices, where is the thin boundary that separate us from the simplest thing in the world: the ability to work in a proper way beyond the working methods. Because, after all, like a famous Gaping Void cartoon says:  \"In The End Everything Is Work Ethic\"",
-            "startsAt": "2019-05-10T11:40:00",
-            "endsAt": "2019-05-10T12:25:00",
+            "startsAt": "2019-05-10T11:45:00",
+            "endsAt": "2019-05-10T12:30:00",
             "isServiceSession": false,
             "isPlenumSession": false,
             "speakers": [
@@ -119,8 +119,8 @@
             "id": "103560",
             "title": "#NoElevator for DevOps",
             "description": "DevOps is the last actual wave for create a sustainable environment that improves the capacity to rapidly adapt an organization to new market challenges.\r\nDevOps is Lean, and is strongly based on practices that were born with eXtreme Programming, reviewed in function of the digital technologies innovation and the mantra of the Continuous Delivery.\r\nBut there isn’t any way to become a DevOps company without a Cultural Change, focused on People and Interaction, and giving to the automation the right space behind that.\r\nIn this talk we will speak about the Cultural challenges behind a real DevOps transformation, highlighting how this means a new extended Agile mindset and not only the adoption of new tools, remembering that People are a non-trivial machines.\r\n",
-            "startsAt": "2019-05-10T14:40:00",
-            "endsAt": "2019-05-10T15:25:00",
+            "startsAt": "2019-05-10T14:30:00",
+            "endsAt": "2019-05-10T15:15:00",
             "isServiceSession": false,
             "isPlenumSession": false,
             "speakers": [
@@ -153,7 +153,7 @@
             ],
             "categories": [],
             "roomId": 5147,
-            "room": "Main"
+            "room": "Secondary"
           },
           {
             "id": "eb1ce572-3ee9-4f7f-81da-4c664c9fe115",
@@ -179,8 +179,8 @@
             "id": "116728",
             "title": "I'm a mediocre developer",
             "description": "There's a question that had been with me for a long time: am I a mediocre developer? \r\nThe world of software development is populated by a motley fauna, and over time I have learned to recognize the people who cross my footsteps. And it is also thanks (or through their fault) that this state of mind has matured.\r\nI decided to share what I discovered in order to put myself in a mirror, made with other people, in order to verify if someone else has lived the same vicissitudes as me, and maybe to be able to find an answer to this question thanks to them.",
-            "startsAt": "2019-05-10T10:40:00",
-            "endsAt": "2019-05-10T11:25:00",
+            "startsAt": "2019-05-10T10:45:00",
+            "endsAt": "2019-05-10T11:30:00",
             "isServiceSession": false,
             "isPlenumSession": false,
             "speakers": [
@@ -269,8 +269,8 @@
             "id": "118013",
             "title": "Microservices integration: Kafka vs RabbitMQ",
             "description": "RabbitMQ and Kafka are the most popular brokers, they are often used to integrate microservices. \r\nIn this talk, we will analyse the differences between them showing some real use-case. At the end of this talk, you will have an idea where and when to use RabbitMQ or Kafka.",
-            "startsAt": "2019-05-10T14:40:00",
-            "endsAt": "2019-05-10T15:25:00",
+            "startsAt": "2019-05-10T14:30:00",
+            "endsAt": "2019-05-10T15:15:00",
             "isServiceSession": false,
             "isPlenumSession": false,
             "speakers": [
@@ -317,7 +317,7 @@
             ],
             "categories": [],
             "roomId": 5148,
-            "room": "Secondary"
+            "room": "Main"
           }
         ],
         "hasOnlyPlenumSessions": false
@@ -383,7 +383,7 @@
               "title": "Coffee Break",
               "description": null,
               "startsAt": "2019-05-10T10:15:00",
-              "endsAt": "2019-05-10T10:40:00",
+              "endsAt": "2019-05-10T10:45:00",
               "isServiceSession": true,
               "isPlenumSession": true,
               "speakers": [],
@@ -396,7 +396,7 @@
         ]
       },
       {
-        "slotStart": "10:40:00",
+        "slotStart": "10:45:00",
         "rooms": [
           {
             "id": 5147,
@@ -405,8 +405,8 @@
               "id": "103989",
               "title": "Agile Pro Nobis",
               "description": "In twenty years or so, agile software development went from being a ridiculed exoteric cult to mainstream religion, featuring beliefs and traits typical of both phases.\r\n\r\nSomeone wants more code and less tree hugging, someone else wants more soft skills and less engineering mindset. Someone wants to redeem banks, others crave start-up asceticism. Some are clinging to the Tables of the Manifesto while some other is re-inventing the Wheel® in a desperate attempt to get their place in a market in which it has become tough to differentiate ourselves. We have got all of them!\r\n\r\nSomething is broken in this visceral attachment to the how rather than the what. We shouldn't forget, as much as in true religions, that agile was born with a simple goal: making everybody happier. The problem is that \"simple\" is not \"easy\".\r\n\r\nAnd in software engineering there is no afterlife to get even by.\r\n\r\n",
-              "startsAt": "2019-05-10T10:40:00",
-              "endsAt": "2019-05-10T11:25:00",
+              "startsAt": "2019-05-10T10:45:00",
+              "endsAt": "2019-05-10T11:30:00",
               "isServiceSession": false,
               "isPlenumSession": false,
               "speakers": [
@@ -428,8 +428,8 @@
               "id": "116728",
               "title": "I'm a mediocre developer",
               "description": "There's a question that had been with me for a long time: am I a mediocre developer? \r\nThe world of software development is populated by a motley fauna, and over time I have learned to recognize the people who cross my footsteps. And it is also thanks (or through their fault) that this state of mind has matured.\r\nI decided to share what I discovered in order to put myself in a mirror, made with other people, in order to verify if someone else has lived the same vicissitudes as me, and maybe to be able to find an answer to this question thanks to them.",
-              "startsAt": "2019-05-10T10:40:00",
-              "endsAt": "2019-05-10T11:25:00",
+              "startsAt": "2019-05-10T10:45:00",
+              "endsAt": "2019-05-10T11:30:00",
               "isServiceSession": false,
               "isPlenumSession": false,
               "speakers": [
@@ -615,7 +615,7 @@
               "title": "Lunch Break",
               "description": null,
               "startsAt": "2019-05-10T13:30:00",
-              "endsAt": "2019-05-10T14:40:00",
+              "endsAt": "2019-05-10T14:30:00",
               "isServiceSession": true,
               "isPlenumSession": true,
               "speakers": [],
@@ -628,7 +628,7 @@
         ]
       },
       {
-        "slotStart": "14:40:00",
+        "slotStart": "14:30:00",
         "rooms": [
           {
             "id": 5147,
@@ -637,8 +637,8 @@
               "id": "103560",
               "title": "#NoElevator for DevOps",
               "description": "DevOps is the last actual wave for create a sustainable environment that improves the capacity to rapidly adapt an organization to new market challenges.\r\nDevOps is Lean, and is strongly based on practices that were born with eXtreme Programming, reviewed in function of the digital technologies innovation and the mantra of the Continuous Delivery.\r\nBut there isn’t any way to become a DevOps company without a Cultural Change, focused on People and Interaction, and giving to the automation the right space behind that.\r\nIn this talk we will speak about the Cultural challenges behind a real DevOps transformation, highlighting how this means a new extended Agile mindset and not only the adoption of new tools, remembering that People are a non-trivial machines.\r\n",
-              "startsAt": "2019-05-10T14:40:00",
-              "endsAt": "2019-05-10T15:25:00",
+              "startsAt": "2019-05-10T14:30:00",
+              "endsAt": "2019-05-10T15:15:00",
               "isServiceSession": false,
               "isPlenumSession": false,
               "speakers": [
@@ -660,8 +660,8 @@
               "id": "118013",
               "title": "Microservices integration: Kafka vs RabbitMQ",
               "description": "RabbitMQ and Kafka are the most popular brokers, they are often used to integrate microservices. \r\nIn this talk, we will analyse the differences between them showing some real use-case. At the end of this talk, you will have an idea where and when to use RabbitMQ or Kafka.",
-              "startsAt": "2019-05-10T14:40:00",
-              "endsAt": "2019-05-10T15:25:00",
+              "startsAt": "2019-05-10T14:30:00",
+              "endsAt": "2019-05-10T15:15:00",
               "isServiceSession": false,
               "isPlenumSession": false,
               "speakers": [
@@ -682,17 +682,17 @@
 
 
       {
-        "slotStart": "15:25:00",
+        "slotStart": "15:15:00",
         "rooms": [
           {
             "id": 5147,
             "name": "Main",
             "session": {
-              "id": "a29f2e5e-0f9c-4e2e-8a4f-36cf863b0d",
+              "id": "a29f2e5e-0f9c-4e2e-8a4f-36cf863b0dxx",
               "title": "Coffee Break",
               "description": null,
-              "startsAt": "2019-05-10T15:25:00",
-              "endsAt": "2019-05-10T15:50:00",
+              "startsAt": "2019-05-10T15:15:00",
+              "endsAt": "2019-05-10T15:45:00",
               "isServiceSession": true,
               "isPlenumSession": true,
               "speakers": [],
@@ -705,19 +705,40 @@
         ]
       },
 
-
-
       {
-        "slotStart": "15:40:00",
+        "slotStart": "15:45:00",
         "rooms": [
           {
             "id": 5147,
             "name": "Main",
             "session": {
+              "id": "117862",
+              "title": "From monolith to microservices: tales from the trenches of a long and ongoing journey",
+              "description": "In the past 20 years at lastminute.com hundreds of developers produced millions of lines of code. The platform has been constantly evolved to support the always increasing number of customers and the complexity of our business.\r\nFour years ago we faced a thought decision as our monolithic system was too large to deal with in an effective way: we decided to break our system using the microservices architectural style.\r\nBut managing microservices is hard, and hard is the journey to get there as\r\nthe overall complexity of the system increases and moves out from the applications directly to the infrastructure. \r\nDespite the challenges faced on both sides the result is worthwhile.\r\nIn this talk I’ll try to summarize the major difficulties, pitfalls and the most important lesson learned during the evolution of our platform. \r\n\r\n",
+              "startsAt": "2019-05-10T15:45:00",
+              "endsAt": "2019-05-10T16:30:00",
+              "isServiceSession": false,
+              "isPlenumSession": false,
+              "speakers": [
+                {
+                  "id": "bd068c11-f2a4-4696-ac3e-efe3f32906e4",
+                  "name": "Paolo Banfi"
+                }
+              ],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          },
+          {
+            "id": 5148,
+            "name": "Secondary",
+            "session": {
               "id": "116732",
               "title": "Retrospectives: Looking back to move forward",
               "description": "Retrospection. \"The action of looking back on past events\". Whilst we can’t change past events, we can definitely learn from them to make the future better. \r\n \r\nThe intention of retrospectives is to focus on continuous improvement; to take the pitfalls of previous projects or sprints, and use them to enhance how our team works. Using games and activities we encourage a new perspective on issues, facilitate honest and open discussions and generate solid actions.\r\n \r\nWe have facilitated numerous retrospectives for all sorts of teams and are passionate advocates of the practice. In this hands-on workshop we will share our experiences and through practical examples and demonstrations, attendees will leave having designed their own retrospective to use with their teams. \r\n \r\nWe’ll cover: \r\n* What are the benefits of having retros\r\n* Energisers, games and activities\r\n* Building your own retrospective\r\n* Typical problems and solutions\r\n* How to generate useful actions\r\n",
-              "startsAt": "2019-05-10T15:40:00",
+              "startsAt": "2019-05-10T15:45:00",
               "endsAt": "2019-05-10T17:25:00",
               "isServiceSession": false,
               "isPlenumSession": false,
@@ -732,29 +753,6 @@
                 }
               ],
               "categories": [],
-              "roomId": 5147,
-              "room": "Main"
-            },
-            "index": 0
-          },
-          {
-            "id": 5148,
-            "name": "Secondary",
-            "session": {
-              "id": "117862",
-              "title": "From monolith to microservices: tales from the trenches of a long and ongoing journey",
-              "description": "In the past 20 years at lastminute.com hundreds of developers produced millions of lines of code. The platform has been constantly evolved to support the always increasing number of customers and the complexity of our business.\r\nFour years ago we faced a thought decision as our monolithic system was too large to deal with in an effective way: we decided to break our system using the microservices architectural style.\r\nBut managing microservices is hard, and hard is the journey to get there as\r\nthe overall complexity of the system increases and moves out from the applications directly to the infrastructure. \r\nDespite the challenges faced on both sides the result is worthwhile.\r\nIn this talk I’ll try to summarize the major difficulties, pitfalls and the most important lesson learned during the evolution of our platform. \r\n\r\n",
-              "startsAt": "2019-05-10T15:40:00",
-              "endsAt": "2019-05-10T16:25:00",
-              "isServiceSession": false,
-              "isPlenumSession": false,
-              "speakers": [
-                {
-                  "id": "bd068c11-f2a4-4696-ac3e-efe3f32906e4",
-                  "name": "Paolo Banfi"
-                }
-              ],
-              "categories": [],
               "roomId": 5148,
               "room": "Secondary"
             },
@@ -766,8 +764,8 @@
         "slotStart": "16:40:00",
         "rooms": [
           {
-            "id": 5148,
-            "name": "Secondary",
+            "id": 5147,
+            "name": "Main",
             "session": {
               "id": "114958",
               "title": "In Code we trust",
@@ -783,10 +781,10 @@
                 }
               ],
               "categories": [],
-              "roomId": 5148,
-              "room": "Secondary"
+              "roomId": 5147,
+              "room": "Main"
             },
-            "index": 1
+            "index": 0
           }
         ]
       },
