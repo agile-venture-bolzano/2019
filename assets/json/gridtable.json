@@ -335,6 +335,29 @@
               "title": "Registration",
               "description": null,
               "startsAt": "2019-05-10T08:30:00",
+              "endsAt": "2019-05-10T09:20:00",
+              "isServiceSession": true,
+              "isPlenumSession": true,
+              "speakers": [],
+              "categories": [],
+              "roomId": 5147,
+              "room": "Main"
+            },
+            "index": 0
+          }
+        ]
+      },
+      {
+        "slotStart": "08:20:00",
+        "rooms": [
+          {
+            "id": 5147,
+            "name": "Main",
+            "session": {
+              "id": "b34105bc-c29e-4b6c-b111-aa8d9cd86ac2",
+              "title": "Opening",
+              "description": null,
+              "startsAt": "2019-05-10T08:20:00",
               "endsAt": "2019-05-10T09:30:00",
               "isServiceSession": true,
               "isPlenumSession": true,
